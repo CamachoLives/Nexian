@@ -1,0 +1,50 @@
+export const PlansHostingData = [
+  {
+    id: 1,
+    name: 'Lite',
+    price: '$1.99',
+    interval: 'month',
+    url: '#',
+    features: [
+      "1 Cores, 2GB RAM Fair-Use Limit",
+      "5 Domains",
+      "10 GB NVMe SSD Storage",
+      "100 GB Monthly Bandwidth",
+      "Unlimited Database",
+      "30-Day Daily Backups",
+      "cPanel Control Panel",
+    ],
+  },
+  {
+    id: 2,
+    name: 'Plus',
+    price: '$3.99',
+    interval: 'month',
+    url: '#',
+    features: [
+      "2 Cores, 4GB RAM Fair-Use Limit",
+      "10 Domains",
+      "20 GB NVMe SSD Storage",
+      "200 GB Monthly Bandwidth",
+      "Unlimited Database",
+      "30-Day Daily Backups",
+      "cPanel Control Panel",
+    ],
+  },
+  {
+    id: 3,
+    name: 'Advance',
+    price: '$5.99',
+    interval: 'month',
+    url: '#',
+    features: [
+      "4 Cores, 6GB RAM Fair-Use Limit",
+      "100 Domains",
+      "220 GB NVMe SSD Storage",
+      "500 GB Monthly Bandwidth",
+      "Unlimited Database",
+      "30-Day Daily Backups",
+      "cPanel Control Panel",
+    ],
+  }
+];

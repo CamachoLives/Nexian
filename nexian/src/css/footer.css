@@ -1,0 +1,66 @@
+.footer {
+  background-color: var(--color-dark);
+  box-shadow: 0 -2px 0.5rem #000000;
+}
+.footer a {
+  color: var(--color-primary-light);
+}
+.footer a:hover {
+  color: var(--color-secondary-light);
+}
+/* Footer main */
+.footer-main-container {
+  display: flex;
+  padding: 2rem 0;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.footer-main-block {
+  flex: 1 0 260px;
+}
+.footer-main-block p:last-of-type {
+  margin: 0;
+}
+.footer-main-block-title {
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+  font-weight: var(--font-weight-normal);
+  padding-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(to right, var(--color-primary), var(--color-secondary)) 1;
+}
+.footer-main-block li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.footer-main-block li:last-child {
+  border-bottom: 0;
+}
+
+.footer-main-block a,
+.footer-bottom-block a {
+  color: var(--color-primary-light);
+  text-decoration: none;
+  background: linear-gradient(to right, var(--color-secondary-light), var(--color-secondary-light)) no-repeat left bottom;
+  background-size: 0% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  transition: background-size 0.4s ease, color 0.4s ease;
+}
+
+.footer-main-block a:hover,
+.footer-bottom-block a:hover {
+  color: transparent;
+  background-size: 100% 100%;
+}
+
+/* Footer Bottom */
+.footer-bottom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 1.5rem 0;
+}

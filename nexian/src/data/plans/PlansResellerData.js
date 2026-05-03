@@ -1,0 +1,50 @@
+export const PlansResellerData = [
+  {
+    id: 1,
+    name: 'Starter Reseller',
+    price: '$6.00',
+    interval: 'month',
+    url: '#',
+    features: [
+      "1 Cores, 2GB RAM Fair-Use Limit",
+      "5 Accounts",
+      "10 GB NVMe SSD Storage",
+      "100 GB Monthly Bandwidth",
+      "Unlimited Database",
+      "30-Day Daily Backups",
+      "cPanel Control Panel",
+    ],
+  },
+  {
+    id: 2,
+    name: 'Plus Reseller',
+    price: '$9.00',
+    interval: 'month',
+    url: '#',
+    features: [
+      "2 Cores, 4GB RAM Fair-Use Limit",
+      "20 GB NVMe SSD Storage",
+      "20 Accounts",
+      "Unmetered Databases",
+      "Unmetered Bandwidth",
+      "30-Day Off-site Backups",
+      "cPanel Control Panel",
+    ],
+  },
+  {
+    id: 3,
+    name: 'Pro Reseller',
+    price: '$15.00',
+    interval: 'month',
+    url: '#',
+    features: [
+      "4 Cores, 6GB RAM Fair-Use Limit",
+      "40GB NVMe SSD Storage",
+      "100 Accounts",
+      "Unmetered Databases",
+      "Unmetered Bandwidth",
+      "30-Day Off-site Backups",
+      "cPanel Control Panel",
+    ],
+  }
+];

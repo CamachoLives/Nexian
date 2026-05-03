@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Darki – Free Dark Next.js Hosting Template
 
-## Getting Started
+Darki is a modern, fast, and fully responsive web hosting template built with Next.js. It is designed for hosting companies, cloud providers, and technology businesses that want a clean and professional website layout.
 
-First, run the development server:
+The template features a sleek dark UI and includes common sections used by hosting providers such as hosting plans, services, FAQs, and call-to-action areas. Darki is built to be lightweight, easy to customize, and suitable for quickly launching a hosting website.
+
+Built on top of Next.js, the template provides excellent performance, fast page loading, and a modern development experience.
+
+---
+
+## Features
+
+- Modern dark themed design  
+- Built with Next.js  
+- Fully responsive layout  
+- Hosting focused sections (plans, services, FAQs)  
+- Clean and organized code structure  
+- Easy to customize and extend  
+
+---
+
+## Demo
+https://darki.vercel.app/
+
+## Template Details:
+https://dev5.dev/theme/nextjs/darki
+
+## Documentation
+
+https://dev5.dev/doc/darki
+
+---
+
+## Installation - Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/darki.git
+```
+
+### 2. Move into the project directory
+
+```bash
+cd darki
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 5. Open in your browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Developed By
 
-To learn more about Next.js, take a look at the following resources:
+Developed by **Dev5.dev team**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Website: https://dev5.dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This template is released as a free theme. Please check the license file included in the repository for usage terms.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## WHMCS / HTML / WordPress / Drupal:
+If you want HTML / WordPress / Drupal version or WHMCS integration, please contact us.
+
+---
+## Contact us:
+
+Please use below page to reach us in case you need any help.
+
+https://dev5.dev/contact
