@@ -3,7 +3,7 @@ export default function FooterMainAbout() {
   return (
     <div className="footer-block footer-main-block footer-about-block">
       <p><Image className="logo"
-        src="/images/logo.svg"
+        src="/images/svg.svg"
         alt="Company Logo"
         height={30}
         width={0}

@@ -5,8 +5,8 @@ import Testimonial from "@/parts/components/Testimonial";
 import ActionCardHostingVps from "@/parts/components/ActionCardHostingVps";
 
 export const metadata = {
-  title: "Affordable Web Hosting, VPS Hosting & Dedicated Servers | Darki",
-  description: "Launch your website with fast and secure web hosting. Explore powerful VPS servers, dedicated servers, and scalable hosting solutions from Darki.",
+  title: "Nexian Soluciones",
+  description: "Transformamos código en soluciones de alto impacto. Elevamos tu rendimiento y garantizamos la integridad de tus datos con seguridad avanzada..",
 };
 
 export default function Home() {

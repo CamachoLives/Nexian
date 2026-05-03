@@ -14,11 +14,10 @@ export default function Hero() {
       <div className="container">
         <div className="hero-container">
           <div className="hero-section hero-text">
-            <h1 className="hero-title-wave">Next-Generation Web Hosting and VPS Solutions</h1>
-            <p className="font-size-medium">Powerful Ryzen servers, DDR5 RAM and NVMe SSD storage designed for speed and reliability.</p>
+            <h1 className="hero-title-wave">Conectando el presente con el futuro</h1>
+            <p className="font-size-medium">Transformamos código en soluciones de alto impacto. Elevamos tu rendimiento y garantizamos la integridad de tus datos con seguridad avanzada.</p>
             <div className="flex-container gap">
-              <Link className="button" href="/hosting/web-hosting">Explore Hosting Plans</Link>
-              <Link className="button" href="/vps/kvm-vps">Explore Ryzen VPS</Link>
+              <Link className="button" href="/hosting/web-hosting">Comencemos a dar Soluciones!</Link>
             </div>
           </div>
           <div className="hero-section hero-image-section">

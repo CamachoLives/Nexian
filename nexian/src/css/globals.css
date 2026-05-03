@@ -1,20 +1,20 @@
 :root {
   --bg-body: #121212;
   --color-text: #c1c1c1;
-  --color-primary: #c642a5;
-  --color-primary-dark: #86196b;
-  --color-primary-light: #ffb0eb;
-  --color-secondary: #7c39cf;
-  --color-secondary-dark: #5327b3;
-  --color-secondary-light: #ae89ff;
+  --color-primary: #4295c6;
+  --color-primary-dark: #194c86;
+  --color-primary-light: #b0e6ff;
+  --color-secondary: #39becf;
+  --color-secondary-dark: #27aab3;
+  --color-secondary-light: #89f7ff;
   --color-dark: #0e0e0e;
   --color-dark2: #221d2f;
   --color-border: #493849;
   --font-weight-normal: 400;
   --font-weight-bold: 600;
   --font-mono: ui-monospace, "Cascadia Code", "Source Code Pro", monospace;
-  --font-text: "Manrope";
-  --font-heading: "Manrope", sans-serif;
+  --font-text: "poppins";
+  --font-heading: "poppins", sans-serif;
 }
 /* manrope-regular - latin */
 @font-face {
@@ -27,7 +27,7 @@
 /* manrope-600 - latin */
 @font-face {
   font-display: swap;
-  font-family: 'Manrope';
+  font-family: 'poppins';
   font-style: normal;
   font-weight: 600;
   src: url('../fonts/manrope-bold.woff2') format('woff2');
