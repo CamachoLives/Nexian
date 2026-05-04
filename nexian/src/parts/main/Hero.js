@@ -23,7 +23,7 @@ export default function Hero() {
           <div className="hero-section hero-image-section">
             <Image
               className="hero-image"
-              src="/images/hero-server.svg"
+              src="/images/interface.svg"
               alt="hero slider"
               width={0}
               height={0}

@@ -193,7 +193,7 @@
   color: var(--color-secondary-light);
 }
 .header-user-button {
-  display: grid;
+  display: none !important;
   place-content: center;
   color: #ffffff;
   width: 32px;

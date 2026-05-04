@@ -1,43 +1,43 @@
 export const HostingServicesData = [
   {
     id: 1,
-    name: 'Shared Hosting',
-    info: 'Powerful web hosting engineered for speed, security, and consistent performance.',
+    name: 'Automatizaciones',
+    info: 'Automatiza tus procesos y aumenta la eficiencia de tu negocio.',
     image: '/images/icons/web-hosting.svg',
     url: '/hosting/web-hosting'
   },
     {
     id: 2,
-    name: 'Reseller Hosting',
-    info: 'Easily resell high performance, managed hosting services to your clients.',
+    name: 'Software a la Medida',
+    info: 'Desarrolla soluciones personalizadas que se adapten a las necesidades específicas de tu empresa.',
     image: '/images/icons/reseller-hosting.svg',
     url: '/hosting/reseller-hosting'
   },
   {
     id: 3,
-    name: 'WordPress Hosting',
-    info: 'Lightning-fast WordPress hosting designed for speed, security, and performance.',
+    name: 'CMS Hosting',
+    info: 'Soluciones de hosting optimizadas para la gestión de contenido.',
     image: '/images/icons/wp-hosting.svg',
     url: '/hosting/wordpress-hosting'
   },
   {
     id: 4,
-    name: 'VPS',
-    info: 'High performance Ryzen servers with NVMe ssd disk and 10Gbps port.',
+    name: 'IA',
+    info: 'Implementa soluciones de inteligencia artificial para automatizar y mejorar tus procesos.',
     image: '/images/icons/kvm-vps.svg',
     url: '/vps'
   },
   {
     id: 5,
-    name: 'Storage VPS',
-    info: 'Affordable Storage VPS with SSD caching and RAID-10 for faster performance.',
+    name: 'Optimiazaciones',
+    info: 'Optimiza el rendimiento de tus aplicaciones y servicios.',
     image: '/images/icons/storage-vps.svg',
     url: '/vps/storage-vps'
   },
   {
     id: 6,
-    name: 'Dedicated Server',
-    info: 'Robust dedicated server solutions delivering performance, security, and total control.',
+    name: 'Seguridad',
+    info: 'Protege tu infraestructura y datos con soluciones de seguridad avanzadas.',
     image: '/images/icons/dedicaed-server.svg',
     url: '/dedicated'
   }

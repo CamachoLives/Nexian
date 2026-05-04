@@ -90,8 +90,15 @@
     gap: 3rem;
   }
   .header-user-button {
-    display: none;
+    display: none !important;
   }
+  .header-user-icon {
+    display: none !important;
+  }
+   .header-action view-in-desktop {
+    display: none !important;
+  }
+
   .mobile-menu-close {
     display: none;
   }
