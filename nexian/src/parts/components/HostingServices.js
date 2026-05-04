@@ -17,7 +17,7 @@ export default function HostingServices() {
             </div>
             <h3 className="card-title">{service.name}</h3>
             <p>{service.info}</p>
-            <Link className="button card-button" href={service.url}>Ver Planes</Link>
+            {/* <Link className="button card-button" href={service.url}>Ver Planes</Link> */}
           </div>
         ))}
       </div>
