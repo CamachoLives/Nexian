@@ -1,31 +1,32 @@
 import Breadcrumb from "@/parts/components/Breadcrumb";
-import PlansResellerHosting from "@/parts/plans/PlansResellerHosting";
+import HostingTypes from "@/parts/components/HostingTypes";
 import FeaturesHosting from "@/parts/components/FeaturesHosting";
-import FaqHosting from "@/parts/components/FaqHosting";
+import ActionCardHosting from "@/parts/components/ActionCardHosting";
 
 export const metadata = {
-  title: "Affordable Reseller Hosting Plans | White Label Hosting",
-  description: "Build and grow your hosting business with powerful reseller hosting featuring fast servers, flexible plans, and full branding control.",
+  title: "Servicios de Software | Desarrollo a Medida y Ciberseguridad",
+  description: "Soluciones de software personalizadas, inteligencia artificial y ciberseguridad. Optimizamos procesos y blindamos infraestructuras digitales.",
 };
 
-
-export default function WebHosting() {
+export default function Hosting() {
   return (
-    <main className="main">
+    <main className="main main-hosting">
       <article>
         <header className="page-header">
           <div className="container">
             <div className="page-header-container">
               <Breadcrumb />
-              <h1 className="page-title">Reseller Hosting</h1>
-              <p className="width-6 font-size-medium">White-label reseller hosting designed for developers, agencies, and entrepreneurs.</p>
+              <h1 className="page-title">Soluciones de Software y Seguridad</h1>
+              <p className="width-6 font-size-medium">
+                Desarrollo ágil de aplicaciones, optimización de plataformas y blindaje técnico diseñado para escalar tu negocio con seguridad y eficiencia.
+              </p>
               <ul className="width-6 flex-container gap-2 list-check">
-                <li>30-Days Daily Backup</li>
-                <li>7-Days Money Back</li>
-                <li>cPanel Control Panel</li>
-                <li>Free SSL</li>
-                <li>Offsite Backups</li>
-                <li>Free Migration</li>
+                <li>Desarrollo Full-Stack</li>
+                <li>Mitigación de Vulnerabilidades</li>
+                <li>Automatización con IA</li>
+                <li>Arquitectura Escalable</li>
+                <li>Gestión de Parches</li>
+                <li>Optimización de Rendimiento</li>
               </ul>
             </div>
           </div>
@@ -33,9 +34,9 @@ export default function WebHosting() {
         <section className="content">
           <div className="container">
             <div className="content-container">
-              <PlansResellerHosting />
+              <HostingTypes />
               <FeaturesHosting />
-              <FaqHosting />
+              <ActionCardHosting />
               <div className="spacer-3"></div>
             </div>
           </div>

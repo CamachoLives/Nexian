@@ -4,8 +4,8 @@ import FeaturesHosting from "@/parts/components/FeaturesHosting";
 import ActionCardHosting from "@/parts/components/ActionCardHosting";
 
 export const metadata = {
-  title: "Web Hosting | Shared, Reseller & WordPress Hosting",
-  description: "Explore reliable web hosting plans including shared hosting, reseller hosting, and optimized WordPress hosting with fast servers and secure infrastructure.",
+  title: "Servicios de Software | Desarrollo a Medida y Ciberseguridad",
+  description: "Soluciones de software personalizadas, inteligencia artificial y ciberseguridad. Optimizamos procesos y blindamos infraestructuras digitales.",
 };
 
 export default function Hosting() {
@@ -16,15 +16,17 @@ export default function Hosting() {
           <div className="container">
             <div className="page-header-container">
               <Breadcrumb />
-              <h1 className="page-title">Lightning-Fast Hosting</h1>
-              <p className="width-6 font-size-medium">Reliable and budget-friendly shared, reseller & wordpress hosting designed for personal websites, blogs, and growing small businesses.</p>
+              <h1 className="page-title">Soluciones de Software y Seguridad</h1>
+              <p className="width-6 font-size-medium">
+                Desarrollo ágil de aplicaciones, optimización de plataformas y blindaje técnico diseñado para escalar tu negocio con seguridad y eficiencia.
+              </p>
               <ul className="width-6 flex-container gap-2 list-check">
-                <li>30-Days Daily Backup</li>
-                <li>7-Days Money Back</li>
-                <li>cPanel Control Panel</li>
-                <li>Free SSL</li>
-                <li>Offsite Backups</li>
-                <li>Free Migration</li>
+                <li>Desarrollo Full-Stack</li>
+                <li>Mitigación de Vulnerabilidades</li>
+                <li>Automatización con IA</li>
+                <li>Arquitectura Escalable</li>
+                <li>Gestión de Parches</li>
+                <li>Optimización de Rendimiento</li>
               </ul>
             </div>
           </div>
