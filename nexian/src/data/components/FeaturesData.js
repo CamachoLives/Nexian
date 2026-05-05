@@ -1,38 +1,38 @@
 export const FeaturesData = [
   {
     id: 1,
-    title: 'Automatizaciones',
+    title: 'Automatización e IA',
     image: '/images/icons/ssd.svg',
-    text: 'Automatiza tareas repetitivas para ahorrar tiempo y mejorar la eficiencia.'
+    text: 'Optimizamos tus procesos mediante inteligencia artificial y scripts que eliminan tareas repetitivas.'
   },
   {
     id: 2,
-    title: 'High Performing Hardware',
+    title: 'Soluciones a Medida',
     image: '/images/icons/cpu.svg',
-    text: 'With high-end hardware you have always the performance you need for your projects.'
+    text: 'Desarrollamos software y aplicaciones web potentes, diseñadas exclusivamente para los objetivos de tu empresa.'
   },
   {
     id: 3,
-    title: 'Free Migration',
+    title: 'Despliegue Ágil',
     image: '/images/icons/migration.svg',
-    text: 'We can migrate your website to our servers for free and witin few hours only.'
+    text: 'Implementamos tus soluciones de forma rápida y eficiente, asegurando una transición fluida y sin interrupciones.'
   },
   {
     id: 4,
-    title: 'DDoS Protection',
+    title: 'Seguridad y Parches',
     image: '/images/icons/ddos.svg',
-    text: 'Our services includes a free DDoS protection which guarantees the highest availability during attacks.'
+    text: 'Mitigación de vulnerabilidades y gestión de parches para garantizar la máxima protección de tus activos digitales.'
   },
-    {
+  {
     id: 5,
-    title: '99.95% Uptime Guarantee',
+    title: 'Optimización Web',
     image: '/images/icons/uptime.svg',
-    text: 'Our services includes 99.95% uptime guarantee which is a very high uptime guarantee in the hosting field.'
+    text: 'Mejoramos el rendimiento de tus plataformas para asegurar una carga rápida y una experiencia de usuario superior.'
   },
   {
     id: 6,
-    title: '24/7 Support',
+    title: 'Soporte de Ingeniería',
     image: '/images/icons/support.svg',
-    text: 'We have an excellant dedicated customer care available 24x7 to helpyou anytime.'
+    text: 'Asistencia técnica especializada disponible para resolver cualquier duda y mantener tu software siempre al día.'
   }
 ]
