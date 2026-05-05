@@ -1,9 +1,9 @@
 export const FeaturesData = [
   {
     id: 1,
-    title: 'NVME SSD Disk',
+    title: 'Automatizaciones',
     image: '/images/icons/ssd.svg',
-    text: 'Super fast latest NEMe ssd disk to boost your website performance.'
+    text: 'Automatiza tareas repetitivas para ahorrar tiempo y mejorar la eficiencia.'
   },
   {
     id: 2,
