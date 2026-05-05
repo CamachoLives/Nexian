@@ -85,3 +85,16 @@ kbd,
 samp {
   font-family: var(--font-mono);
 }
+
+
+@media (max-width: 768px) {
+  .hide-mobile {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .flex-container {
+    justify-content: center;
+  }
+}
