@@ -4,10 +4,18 @@ import Image from "next/image";
 export default function Testimonial() {
   return (
     <section className="section section-testimonials" aria-labelledby="testimonial-heading">
-      <h2 id="testimonial-heading" className="section-title testimonials-title">Loved by Developers & Businesses</h2>
+      {/* Título más adecuado para alguien que empieza */}
+      <h2 id="testimonial-heading" className="section-title testimonials-title">
+        Resultados y Compromiso
+      </h2>
+      
       <div className="section-small">
-        <p className="font-size-medium width-5">Fast servers, reliable uptime, and helpful support, see why customers trust our hosting platform.</p>
+        <p className="font-size-medium width-5">
+          Soluciones a medida, seguridad robusta y optimización constante. 
+          Mira cómo ayudamos a transformar ideas en software seguro y eficiente.
+        </p>
       </div>
+
       <div className="testimonials section-marquee">
         <ul className="marquee-rtl gap-2">
           {TestimonialsData.map((testimonial) => (
