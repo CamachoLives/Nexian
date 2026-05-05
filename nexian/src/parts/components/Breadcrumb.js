@@ -23,7 +23,7 @@ export default function Breadcrumb() {
     <nav aria-label="Breadcrumb" className="breadcrumb">
       <ol itemScope itemType="https://schema.org/BreadcrumbList" className="breadcrumb-items">
         <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem" className="breadcrumb-item">
-          <span itemProp="name"><Link href="/" itemProp="item">Home</Link></span>
+          <span itemProp="name"><Link href="/" itemProp="item">Inicio</Link></span>
         </li>
 
         {breadcrumbs.map((crumb, index) => (

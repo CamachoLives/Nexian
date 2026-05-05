@@ -21,10 +21,12 @@ export default function Header() {
           <div className="header-right">
             <HeaderNav />
             <div className="header-action view-in-desktop">
-              <Link className="header-button" href="#"><i className="icon-user"></i> Contactanos </Link>
+              <Link className="header-button" href="https://wa.me/573148917721" target="_blank" rel="noopener noreferrer">
+                <i className="icon-user"></i> Contactanos
+              </Link>
             </div>
             <div className="header-user-icon">
-              <Link className="header-user-button" href="#" aria-label="Contactanos"><i className="icon-user"></i><span className="screen-reader-text"> Contactanos </span></Link>
+              <Link className="header-user-button" href="https://wa.me/573148917721" aria-label="Contactanos"><i className="icon-user"></i><span className="screen-reader-text"> Contactanos </span></Link>
             </div>
           </div>
         </div>
