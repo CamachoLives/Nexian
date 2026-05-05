@@ -1,74 +1,69 @@
 export const FooterMainLinks = [
   {
     id: 1,
-    title: "Hosting",
+    title: "Servicios",
     links: [
       {
         id: 1,
-        label: "Web Hosting",
-        href: "/hosting/web-hosting",
+        label: "Software a la Medida",
+        href: "/servicios/desarrollo-software",
       },
       {
         id: 2,
-        label: "Reseller Hosting",
-        href: "/hosting/reseller-hosting",
+        label: "Landing Pages & Web",
+        href: "/servicios/paginas-web",
       },
       {
         id: 3,
-        label: "WordPress Hosting",
-        href: "/hosting/wordpress-hosting",
+        label: "Automatización e IA",
+        href: "/servicios/automatizacion",
       },
     ],
   },
   {
     id: 2,
-    title: "Server",
+    title: "Ciberseguridad",
     links: [
       {
         id: 1,
-        label: "KVM VPS",
-        href: "/vps/kvm-vps",
+        label: "Mitigación de Vulnerabilidades",
+        href: "/servicios/seguridad",
       },
       {
         id: 2,
-        label: "Managed VPS",
-        href: "/vps/managed-vps",
+        label: "Gestión de Parches",
+        href: "/servicios/parches",
       },
       {
         id: 3,
-        label: "Storage VPS",
-        href: "/vps/storage-vps",
-      },
-      {
-        id: 4,
-        label: "Dedicated Server",
-        href: "/dedicated-servers",
+        label: "Optimización de Rendimiento",
+        href: "/servicios/optimizacion",
       },
     ],
   },
   {
     id: 3,
-    title: "Resources",
+    title: "Compañía",
     links: [
       {
         id: 1,
-        label: "About Us",
+        label: "Sobre Nosotros",
         href: "/about",
       },
       {
         id: 2,
-        label: "Docs",
-        href: "#",
+        label: "Portafolio",
+        href: "/portafolio",
       },
       {
         id: 3,
-        label: "Blog",
-        href: "#",
+        label: "Blog Técnico",
+        href: "/blog",
       },
       {
         id: 4,
-        label: "Status",
-        href: "#",
+        label: "Contacto",
+        href: "/contacto",
       },
     ],
   },
