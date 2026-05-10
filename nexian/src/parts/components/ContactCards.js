@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function ContactCards() {
   return (
     <section className="section">
-      <h2 className="section-title">Get In Touch</h2>
+      <h2 className="section-title">Hablemos</h2>
       <div className="section-small">
-        <p className="font-size-medium width-6">Need help? Reach out to our team to quickly get your questions answered.</p>
+        <p className="font-size-medium width-6">¿Tienes un proyecto o una duda? Contáctame por el canal que prefieras y te respondo a la brevedad.</p>
       </div>
       <div className="cards cards-contact">
         {ContactCardsData.map((item) => (

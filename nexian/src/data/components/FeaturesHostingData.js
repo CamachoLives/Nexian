@@ -1,56 +1,56 @@
 export const FeaturesHostingData = [
   {
     id: 1,
-    title: 'NVMe SSD Disk',
+    title: 'Desarrollo Web Moderno',
     image: '/images/icons/ssd.svg',
-    text: 'Super fast latest NEMe ssd disk to boost your website performance.'
+    text: 'Sitios y aplicaciones web construidos con tecnologías actuales para garantizar rapidez, escalabilidad y buenas prácticas.'
   },
   {
     id: 2,
-    title: 'AMD Ryzen CPU',
+    title: 'Código Limpio y Escalable',
     image: '/images/icons/cpu.svg',
-    text: 'We use latest high performing CPU like AMD EPYC to give best performance.'
+    text: 'Escribo código organizado, documentado y fácil de mantener para que tu proyecto crezca sin problemas.'
   },
   {
     id: 3,
-    title: '99.99% Uptime',
+    title: 'Optimización de Rendimiento',
     image: '/images/icons/uptime.svg',
-    text: 'Our services includes 99.95% uptime guarantee which is a very high uptime guarantee in the hosting field.'
+    text: 'Mejoro la velocidad de carga y el rendimiento general de tu sitio aplicando técnicas avanzadas de optimización.'
   },
   {
     id: 4,
-    title: 'DDoS Protection',
+    title: 'Seguridad Web',
     image: '/images/icons/ddos.svg',
-    text: 'Our services includes a free DDoS protection which guarantees the highest availability during attacks.'
+    text: 'Protejo tu sitio contra vulnerabilidades, malware y accesos no autorizados con auditorías y configuraciones de seguridad.'
   },
   {
     id: 5,
-    title: '24/7 Support',
+    title: 'Soporte Técnico',
     image: '/images/icons/support.svg',
-    text: 'We have an excellant dedicated customer care available 24x7 to helpyou anytime.'
+    text: 'Atención personalizada para resolver errores, dudas y cualquier incidencia técnica en tu proyecto web.'
   },
   {
     id: 6,
-    title: 'Free Migration',
+    title: 'Migración de Sitios Web',
     image: '/images/icons/migration.svg',
-    text: 'We can migrate your website to our servers for free and witin few hours only.'
+    text: 'Migraciones seguras entre servidores, hostings o plataformas sin pérdida de datos ni tiempo de inactividad.'
   },
   {
     id: 7,
-    title: 'Free SSL Certificates',
+    title: 'Certificados SSL',
     image: '/images/icons/ssl.svg',
-    text: 'We can migrate your website to our servers for free and witin few hours only.'
+    text: 'Instalación y configuración de certificados SSL para que tu sitio sea seguro y genere confianza en los usuarios.'
   },
   {
     id: 8,
-    title: 'cPanel Control Panel',
+    title: 'Gestión de CMS',
     image: '/images/icons/cpanel.svg',
-    text: 'We can migrate your website to our servers for free and witin few hours only.'
+    text: 'Configuración, personalización y mantenimiento de WordPress, Prestashop y otros gestores de contenido populares.'
   },
   {
     id: 9,
-    title: '30-days Money Back Guarantee',
+    title: 'Presupuesto sin Compromiso',
     image: '/images/icons/money-back.svg',
-    text: 'We can migrate your website to our servers for free and witin few hours only.'
+    text: 'Cuéntame tu proyecto y te envío un presupuesto detallado sin ningún tipo de compromiso.'
   }
 ]

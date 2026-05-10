@@ -5,9 +5,9 @@ import Link from "next/link";
 export default function ContactSupportCards() {
   return (
     <section className="section section-contact-support-cards">
-      <h2 className="section-title">Need Technical Support!</h2>
+      <h2 className="section-title">¿Necesitas Ayuda con tu Proyecto?</h2>
       <div className="section-small">
-        <p className="font-size-medium width-6">Get fast and reliable assistance from our experts whenever you need help with your hosting services.</p>
+        <p className="font-size-medium width-6">Contáctame y recibe asesoramiento personalizado para tu sitio web, ya sea desarrollo, seguridad u optimización.</p>
       </div>
       <div className="cards cards-contact">
         {ContactSupportCardsData.map((item) => (

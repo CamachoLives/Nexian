@@ -1,43 +1,42 @@
 export const FaqDedicatedData = [
   {
     id: 1,
-    title: 'Do you have test IPs?',
-    content: 'We have looking glass websites for most locations, which have test IPs and a download file.'
+    title: '¿Qué tipos de proyectos desarrollas?',
+    content: 'Desarrollo sitios web, aplicaciones web, tiendas online, landing pages y soluciones a medida para empresas y emprendedores.'
   },
   {
     id: 2,
-    title: 'Where are your servers located?',
-    content: 'We currently offer hosting in three locations: New york, Germany, Singapore'
+    title: '¿Con qué tecnologías trabajas?',
+    content: 'Trabajo con tecnologías modernas como React, Next.js, Node.js, PHP, WordPress, Prestashop y más, según las necesidades del proyecto.'
   },
   {
     id: 3,
-    title: 'Can I re-install my dedicated server?',
-    content: 'Yes, upgradation of hosting is easy. Just open a support ticket.'
+    title: '¿Cuánto tiempo tarda en estar listo mi proyecto?',
+    content: 'Depende del alcance del proyecto. Una landing page puede estar lista en pocos días, mientras que un desarrollo más complejo puede tomar algunas semanas.'
   },
   {
     id: 4,
-    title: 'Do I get full root access to my server?',
-    content: 'Yes, all dedicated servers come with full root or administrator access, giving you complete control to install software, configure services, and manage your server environment.'
+    title: '¿Ofreces mantenimiento después de entregar el proyecto?',
+    content: 'Sí, ofrezco planes de mantenimiento continuo que incluyen actualizaciones, corrección de errores, copias de seguridad y soporte técnico.'
   },
   {
     id: 5,
-    title: 'What control panel you use for server management?',
-    content: 'We use VirtFusion control panel to manage dedicated servers. You can manage your dedicated server easily from VF control panel.'
+    title: '¿En qué consiste el servicio de seguridad web?',
+    content: 'Realizo auditorías de seguridad, detección y corrección de vulnerabilidades, configuración de certificados SSL, protección contra malware y ataques.'
   },
   {
     id: 6,
-    title: 'What is the setup time for a dedicated server?',
-    content: 'Most dedicated servers are deployed within a few hours after payment confirmation. Custom configurations or operating system installations may require additional setup time.'
+    title: '¿Puedes optimizar mi página si ya está creada?',
+    content: 'Sí, analizo y optimizo páginas existentes mejorando la velocidad de carga, el rendimiento general, el SEO técnico y la experiencia de usuario.'
   },
   {
-  id: 7,
-  title: 'Which operating systems are available?',
-  content: 'You can choose from a variety of operating systems including popular Linux distributions and Windows Server, depending on your application requirements and preferences.'
+    id: 7,
+    title: '¿Trabajas con WordPress y otros CMS?',
+    content: 'Sí, tengo experiencia con WordPress, Prestashop, Joomla y otros CMS. Puedo instalar, configurar, personalizar y migrar tu sitio sin problemas.'
   },
   {
     id: 8,
-    title: 'Is DDoS protection included?',
-    content: 'Yes, our infrastructure includes network-level protection designed to mitigate common DDoS attacks and help maintain service availability.'
+    title: '¿Cómo puedo empezar a trabajar contigo?',
+    content: 'Puedes contactarme a través del formulario de contacto o abriendo un ticket de soporte. Revisaré tu caso y te responderé a la brevedad.'
   }
-
 ]
