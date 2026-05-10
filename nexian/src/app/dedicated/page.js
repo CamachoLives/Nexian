@@ -4,8 +4,8 @@ import FeaturesDedicated from "@/parts/components/FeaturesDedicated";
 import PlansDedicated from "@/parts/plans/PlansDedicated";
 
 export const metadata = {
-  title: "Dedicated Servers | High Performance Bare Metal Servers",
-  description: "Powerful dedicated servers with high-performance hardware, fast networking, and reliable infrastructure built for demanding applications and websites.",
+  title: "Servicios de Desarrollo Web | Seguridad y Optimización | Darki",
+  description: "Desarrollo web profesional, auditorías de seguridad, optimización de rendimiento y gestión de CMS para llevar tu proyecto al siguiente nivel.",
 };
 
 export default function Dedicated() {
@@ -16,13 +16,13 @@ export default function Dedicated() {
           <div className="container">
             <div className="page-header-container">
               <Breadcrumb />
-              <h1 className="page-title">Dedicated Servers</h1>
-              <p className="width-6 font-size-medium">Our dedicated servers deliver powerful hardware, fast networking, and reliable infrastructure for your most demanding projects.</p>
+              <h1 className="page-title">Servicios de Desarrollo</h1>
+              <p className="width-6 font-size-medium">Soluciones web a medida con código limpio, seguridad aplicada y rendimiento optimizado para que tu proyecto destaque y funcione sin problemas.</p>
               <ul className="width-6 flex-container gap-2 list-check">
-                <li>Full Root Access</li>
-                <li>10 Gbps Port</li>
-                <li>DDoS Protection</li>
-                <li>IPv4 and IPv6</li>
+                <li>Desarrollo a Medida</li>
+                <li>Seguridad Web</li>
+                <li>Optimización de Rendimiento</li>
+                <li>Gestión de CMS</li>
               </ul>
             </div>
           </div>

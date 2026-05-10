@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function PlansDedicated() {
   return (
     <section className="section section-pricing-hosting">
-      <h2 className="section-title">Our Dedicated Servers</h2>
+      <h2 className="section-title">Planes y Servicios</h2>
       <div className="section-small">
-        <p className="font-size-medium width-6">Choose from our powerful dedicated servers built to deliver exceptional performance, reliability, and complete hardware control.</p>
+        <p className="font-size-medium width-6">Elige el plan que mejor se adapte a tu proyecto. Desde soluciones puntuales hasta desarrollo completo y mantenimiento continuo.</p>
       </div>
       <div className="cards cards-pricing cards-pricing-hosting">
         {PlansDedicatedData.map((plan) => (
@@ -24,7 +24,7 @@ export default function PlansDedicated() {
                 ))}
               </ul>
             </div>
-            <Link className="button" href={plan.url}>Get Started</Link>
+            <Link className="button" href={plan.url}>Contratar</Link>
           </div>
         ))}
       </div>
