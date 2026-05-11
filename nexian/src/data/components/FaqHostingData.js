@@ -1,32 +1,32 @@
 export const FaqHostingData = [
   {
     id: 1,
-    title: 'Do you have test IPs?',
-    content: 'We have looking glass websites for most locations, which have test IPs and a download file.'
+    title: '¿Cuánto tiempo tarda en estar listo mi proyecto?',
+    content: 'Depende del alcance. Una landing page puede estar lista en 3-5 días, un sitio completo en 2-3 semanas y un software a medida puede tomar más tiempo según la complejidad.'
   },
   {
     id: 2,
-    title: 'Where are your servers located?',
-    content: 'We currently offer hosting in three locations: New york, Germany, Singapore'
+    title: '¿Trabajas con clientes fuera de Colombia?',
+    content: 'Sí, trabajo con clientes de cualquier país. Me comunico por correo, WhatsApp o videollamada y acepto pagos internacionales.'
   },
   {
     id: 3,
-    title: 'Can I upgrade or downgrade my hosting?',
-    content: 'Yes, upgradation of hosting is easy. Just open a support ticket.'
+    title: '¿Puedo solicitar cambios después de entregar el proyecto?',
+    content: 'Cada plan incluye rondas de revisión. Cambios adicionales fuera del alcance acordado se cotizan por separado o mediante un plan de mantenimiento mensual.'
   },
   {
     id: 4,
-    title: 'Can I host multiple websites?',
-    content: 'Depending on the hosting plan, you can host multiple websites under a single account, making it convenient for developers, agencies, or businesses managing several projects.'
+    title: '¿Necesito tener hosting o dominio propio?',
+    content: 'No es obligatorio. Puedo asesorarte en la elección del hosting y dominio más adecuado para tu proyecto, o trabajar con los que ya tengas contratados.'
   },
   {
     id: 5,
-    title: 'What hosting control panel do you use?',
-    content: 'We use cPanel and DirectAdmin hosting control panel.'
+    title: '¿Qué métodos de pago aceptas?',
+    content: 'Acepto transferencias bancarias, Nequi, Daviplata y pagos internacionales por PayPal o transferencia. Generalmente se trabaja con un anticipo del 50% y el resto contra entrega.'
   },
   {
     id: 6,
-    title: 'Do you allow to outging mails?',
-    content: 'Yes, port 25 is open for outgoing mails.'
+    title: '¿Ofreces garantía sobre tu trabajo?',
+    content: 'Sí, ofrezco soporte post-entrega para corregir cualquier error o fallo relacionado con el desarrollo. Mi objetivo es que quedes completamente satisfecho con el resultado.'
   }
 ]

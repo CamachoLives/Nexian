@@ -1,15 +1,15 @@
-import { FaqVpsData } from "@/data/components/FaqVpsData";
+import { FaqHostingData } from "@/data/components/FaqHostingData";
 import Accordion from "./Accordion";
 
-export default function FaqVps() {
-  return(
+export default function FaqHosting() {
+  return (
     <section className="section section-faq section-faq-hosting">
-      <h2 className="section-title">Frequently Asked Questions</h2>
+      <h2 className="section-title">Preguntas Frecuentes</h2>
       <div className="section-small">
-        <p className="font-size-medium width-5">Find quick answers to common questions about our VPS hosting, server features, billing, and setup process.</p>
+        <p className="font-size-medium width-5">Resuelve tus dudas sobre los servicios de desarrollo, seguridad, optimización e integraciones que ofrezco.</p>
       </div>
       <div className="faq-container faq-hosting">
-        <Accordion items={FaqVpsData} />
+        <Accordion items={FaqHostingData} />
       </div>
     </section>
   );

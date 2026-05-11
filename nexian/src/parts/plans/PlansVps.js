@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function PlansVps() {
   return (
     <section className="section section-pricing-hosting">
-      <h2 className="section-title">High Performing KVM VPS</h2>
+      <h2 className="section-title">Planes de Inteligencia Artificial</h2>
       <div className="section-small">
-        <p className="font-size-medium width-5">High-performance KVM virtual servers with dedicated resources and full root access.</p>
+        <p className="font-size-medium width-5">Integra IA en tu negocio con planes adaptados a tu presupuesto y nivel de complejidad.</p>
       </div>
       <div className="cards cards-pricing cards-pricing-hosting">
         {PlansVpsData.map((plan) => (
@@ -24,7 +24,7 @@ export default function PlansVps() {
                 ))}
               </ul>
             </div>
-            <Link className="button" href={plan.url}>Get Started</Link>
+            <Link className="button" href={plan.url}>Contratar</Link>
           </div>
         ))}
       </div>
