@@ -5,9 +5,9 @@ import Link from "next/link";
 export default function VpsTypes() {
   return (
     <section className="section section-hosting-types">
-      <h2 className="section-title">World Class VPS Hosting</h2>
+      <h2 className="section-title">Integraciones para tu Negocio</h2>
       <div className="section-small">
-        <p className="font-size-medium width-5">Fast, secure, reliable VPS hosting with 99.9% uptime guarantee.</p>
+        <p className="font-size-medium width-5">Soluciones de IA, automatización y seguridad diseñadas para optimizar y proteger tu negocio.</p>
       </div>
       <div className="cards cards-hosting-types">
         {VpsTypesData.map((hostingtype) => (
@@ -17,7 +17,7 @@ export default function VpsTypes() {
             </div>
             <h3 className="card-title">{hostingtype.title}</h3>
             <p>{hostingtype.intro}</p>
-            <Link className="button" href={hostingtype.url}>View Plans</Link>
+            <Link className="button" href={hostingtype.url}>Ver Planes</Link>
           </div>
         ))}
       </div>

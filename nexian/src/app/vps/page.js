@@ -5,8 +5,8 @@ import Testimonial from "@/parts/components/Testimonial";
 import ActionCardVps from "@/parts/components/ActionCardVps";
 
 export const metadata = {
-  title: "VPS Servers | KVM VPS, Managed VPS & Storage VPS | Darki",
-  description: "Deploy high-performance VPS servers with dedicated resources, flexible plans, and reliable infrastructure for websites and applications.",
+  title: "Integraciones | IA, Automatizaciones y Seguridad | Nexian",
+  description: "Integra inteligencia artificial, automatiza procesos y refuerza la seguridad de tu negocio con soluciones tecnológicas avanzadas y personalizadas.",
 };
 
 export default function Vps(){
@@ -17,13 +17,15 @@ export default function Vps(){
           <div className="container">
             <div className="page-header-container">
               <Breadcrumb />
-              <h1 className="page-title">VPS Hosting</h1>
-              <p className="width-6 font-size-medium">Experience high-performance VPS hosting with dedicated resources, fast networking, and dependable infrastructure.</p>
+              <h1 className="page-title">Integraciones Avanzadas</h1>
+              <p className="width-6 font-size-medium">Potencia tu negocio con integraciones de inteligencia artificial, automatización de procesos y soluciones de seguridad diseñadas para trabajar juntas y darte ventaja competitiva.</p>
               <ul className="width-6 flex-container gap-2 list-check">
-                <li>Full Root Access</li>
-                <li>10 Gbps Port</li>
-                <li>DDoS Protection</li>
-                <li>IPv4 and IPv6</li>
+                <li>Inteligencia Artificial</li>
+                <li>Automatización de Procesos</li>
+                <li>Seguridad Avanzada</li>
+                <li>APIs e Integraciones</li>
+                <li>Chatbots y Asistentes</li>
+                <li>Monitoreo Continuo</li>
               </ul>
             </div>
           </div>

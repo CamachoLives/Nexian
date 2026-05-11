@@ -1,38 +1,38 @@
 export const FeaturesVpsData = [
   {
     id: 1,
-    title: 'Enterprise Hardware',
+    title: 'Modelos de IA Personalizados',
     image: '/images/icons/ssd.svg',
-    text: 'Enterprise hardware from top brands like AMD, Dell, Intel, Samsung etc.'
+    text: 'Integración de modelos de inteligencia artificial adaptados a las necesidades específicas de tu negocio.'
   },
   {
     id: 2,
-    title: 'Full Root Access',
+    title: 'Automatización de Flujos',
     image: '/images/icons/root.svg',
-    text: 'With full root access you have full control of your server.'
+    text: 'Automatiza tareas repetitivas y flujos de trabajo para ahorrar tiempo y reducir errores humanos.'
   },
   {
     id: 3,
-    title: '99.9% Uptime Guarantee',
+    title: 'Monitoreo Continuo',
     image: '/images/icons/uptime.svg',
-    text: 'We offer 99.9% uptime SLA on our power, cooling, and network.'
+    text: 'Supervisión constante de tu plataforma para detectar anomalías, amenazas y fallos antes de que impacten tu negocio.'
   },
   {
     id: 4,
-    title: 'DDoS Protection',
+    title: 'Seguridad Avanzada',
     image: '/images/icons/ddos.svg',
-    text: 'Our services includes a free DDoS protection which guarantees the highest availability during attacks.'
+    text: 'Protección activa contra amenazas, vulnerabilidades y accesos no autorizados con auditorías regulares.'
   },
-    {
+  {
     id: 5,
-    title: '10 Gbps Port',
+    title: 'APIs e Integraciones',
     image: '/images/icons/port.svg',
-    text: '10Gbps network port built to handle high traffic, large transfers, and demanding workloads effortlessly.'
+    text: 'Conexión de tus sistemas, herramientas y plataformas a través de APIs para que todo trabaje en conjunto.'
   },
   {
     id: 6,
-    title: '24/7 Support',
+    title: 'Soporte Técnico Especializado',
     image: '/images/icons/support.svg',
-    text: 'Our professional support specialists are available 24/7 to resolve your hosting issues quickly.'
+    text: 'Acompañamiento técnico continuo para garantizar que tus integraciones funcionen de forma óptima y sin interrupciones.'
   }
 ]

@@ -1,23 +1,23 @@
 export const VpsTypesData = [
   {
     id: 1,
-    title: 'KVM VPS',
+    title: 'Inteligencia Artificial',
     image: '/images/icons/kvm-vps.svg',
-    intro: 'High-performance KVM virtual servers with dedicated resources and full root access.',
-    url: '/vps/kvm-vps'
+    intro: 'Integración de modelos de IA para automatizar tareas, analizar datos y mejorar la experiencia de tus usuarios.',
+    url: '/integraciones/inteligencia-artificial'
   },
   {
     id: 2,
-    title: 'Managed VPS',
+    title: 'Automatizaciones',
     image: '/images/icons/managed-vps.svg',
-    intro: 'Fully managed VPS with expert support, maintenance, and server optimization.',
-    url: '/vps/managed-vps'
+    intro: 'Automatiza procesos repetitivos, flujos de trabajo y tareas administrativas para ahorrar tiempo y reducir errores.',
+    url: '/integraciones/automatizaciones'
   },
   {
     id: 3,
-    title: 'Storage VPS',
+    title: 'Seguridad Avanzada',
     image: '/images/icons/storage-vps.svg',
-    intro: 'High-capacity storage VPS designed for backups, media files, and large data storage.',
-    url: '/vps/storage-vps'
+    intro: 'Protección activa contra amenazas, monitoreo continuo y auditorías de seguridad para blindar tu negocio.',
+    url: '/integraciones/seguridad'
   }
 ];
