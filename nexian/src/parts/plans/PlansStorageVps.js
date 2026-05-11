@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function PlansStorageVps() {
   return (
     <section className="section section-pricing-hosting">
-      <h2 className="section-title">Affordable KVM Storage VPS</h2>
+      <h2 className="section-title">Planes de Automatización</h2>
       <div className="section-small">
-        <p className="font-size-medium width-5">High-capacity storage VPS designed for backups, media files, and large data storage.</p>
+        <p className="font-size-medium width-5">Automatiza los procesos de tu negocio con soluciones adaptadas a tu flujo de trabajo y presupuesto.</p>
       </div>
       <div className="cards cards-pricing cards-pricing-hosting">
         {PlansStorageVpsData.map((plan) => (
@@ -24,7 +24,7 @@ export default function PlansStorageVps() {
                 ))}
               </ul>
             </div>
-            <Link className="button" href={plan.url}>Get Started</Link>
+            <Link className="button" href={plan.url}>Contratar</Link>
           </div>
         ))}
       </div>

@@ -4,8 +4,8 @@ import FeaturesVps from "@/parts/components/FeaturesVps";
 import FaqVps from "@/parts/components/FaqVps";
 
 export const metadata = {
-  title: "Storage VPS | Secure Backup VPS | Darki",
-  description: "Powerful Storage VPS with large disk space, stable networking, and reliable infrastructure for backups and large file storage.",
+  title: "Automatizaciones | Flujos de Trabajo y Procesos Automáticos | Nexian",
+  description: "Automatiza tareas repetitivas, flujos de trabajo y procesos administrativos para ahorrar tiempo, reducir errores y escalar tu negocio.",
 };
 
 export default function StorageVps(){
@@ -16,13 +16,15 @@ export default function StorageVps(){
           <div className="container">
             <div className="page-header-container">
               <Breadcrumb />
-              <h1 className="page-title">Storage VPS</h1>
-              <p className="width-6 font-size-medium">Experience high-performance VPS hosting with dedicated resources, fast networking, and dependable infrastructure.</p>
+              <h1 className="page-title">Automatizaciones</h1>
+              <p className="width-6 font-size-medium">Elimina las tareas repetitivas de tu negocio con flujos de trabajo automatizados que trabajan por ti las 24 horas, reduciendo errores y liberando tu tiempo para lo que realmente importa.</p>
               <ul className="width-6 flex-container gap-2 list-check">
-                <li>Full Root Access</li>
-                <li>10 Gbps Port</li>
-                <li>DDoS Protection</li>
-                <li>IPv4 and IPv6</li>
+                <li>Automatización de Correos</li>
+                <li>Flujos de Trabajo</li>
+                <li>Integración entre Plataformas</li>
+                <li>Reportes Automáticos</li>
+                <li>Notificaciones Inteligentes</li>
+                <li>Sincronización de Datos</li>
               </ul>
             </div>
           </div>
