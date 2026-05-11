@@ -4,8 +4,8 @@ import FeaturesVps from "@/parts/components/FeaturesVps";
 import FaqVps from "@/parts/components/FaqVps";
 
 export const metadata = {
-  title: "Managed VPS Hosting | Fully Managed Virtual Servers | Darki",
-  description: "Reliable managed VPS hosting with expert server management, security updates, monitoring, and optimized performance for your applications.",
+  title: "Seguridad Web | Auditorías y Protección Avanzada | Darki",
+  description: "Auditorías de seguridad, detección de vulnerabilidades, protección contra malware y monitoreo continuo para mantener tu plataforma segura y blindada.",
 };
 
 export default function ManagedVps(){
@@ -16,13 +16,15 @@ export default function ManagedVps(){
           <div className="container">
             <div className="page-header-container">
               <Breadcrumb />
-              <h1 className="page-title">Managed VPS</h1>
-              <p className="width-6 font-size-medium">Experience high-performance VPS hosting with dedicated resources, fast networking, and dependable infrastructure.</p>
+              <h1 className="page-title">Seguridad Web</h1>
+              <p className="width-6 font-size-medium">Protege tu sitio web y plataforma digital contra amenazas, vulnerabilidades y accesos no autorizados con auditorías profesionales y soluciones de seguridad avanzadas.</p>
               <ul className="width-6 flex-container gap-2 list-check">
-                <li>Full Root Access</li>
-                <li>10 Gbps Port</li>
-                <li>DDoS Protection</li>
-                <li>IPv4 and IPv6</li>
+                <li>Auditorías de Seguridad</li>
+                <li>Detección de Malware</li>
+                <li>Protección contra Ataques</li>
+                <li>Certificados SSL</li>
+                <li>Monitoreo Continuo</li>
+                <li>Hardening de Servidores</li>
               </ul>
             </div>
           </div>

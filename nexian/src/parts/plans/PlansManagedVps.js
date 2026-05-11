@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function PlansManagedVps() {
   return (
     <section className="section section-pricing-hosting">
-      <h2 className="section-title">Fully Managed VPS</h2>
+      <h2 className="section-title">Planes de Seguridad Web</h2>
       <div className="section-small">
-        <p className="font-size-medium width-5">Fully managed VPS with expert support, maintenance, and server optimization.</p>
+        <p className="font-size-medium width-5">Elige el nivel de protección que necesita tu sitio web o plataforma digital.</p>
       </div>
       <div className="cards cards-pricing cards-pricing-hosting">
         {PlansManagedVpsData.map((plan) => (
@@ -24,7 +24,7 @@ export default function PlansManagedVps() {
                 ))}
               </ul>
             </div>
-            <Link className="button" href={plan.url}>Get Started</Link>
+            <Link className="button" href={plan.url}>Contratar</Link>
           </div>
         ))}
       </div>
