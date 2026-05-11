@@ -5,9 +5,9 @@ import Link from "next/link";
 export default function HostingTypes() {
   return (
     <section className="section section-hosting-types">
-      <h2 className="section-title">World Class Hosting Solutions</h2>
+      <h2 className="section-title">Servicios Profesionales de Desarrollo</h2>
       <div className="section-small">
-        <p className="font-size-medium width-5">Fast, secure, reliable web hosting with 99.9% uptime guarantee.</p>
+        <p className="font-size-medium width-5">Desarrollo web, seguridad y optimización para llevar tu proyecto al siguiente nivel.</p>
       </div>
       <div className="cards cards-hosting-types">
         {HostingTypesData.map((hostingtype) => (
@@ -17,7 +17,7 @@ export default function HostingTypes() {
             </div>
             <h3 className="card-title">{hostingtype.title}</h3>
             <p>{hostingtype.intro}</p>
-            <Link className="button" href={hostingtype.url}>View Plans</Link>
+            <Link className="button" href={hostingtype.url}>Ver Planes</Link>
           </div>
         ))}
       </div>

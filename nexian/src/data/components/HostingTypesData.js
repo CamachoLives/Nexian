@@ -1,23 +1,23 @@
 export const HostingTypesData = [
   {
     id: 1,
-    title: 'Web Hosting',
+    title: 'Desarrollo Web',
     image: '/images/icons/web-hosting.svg',
-    intro: 'Powerful web hosting engineered for speed, security, and consistent performance.',
-    url: '/hosting/web-hosting'
+    intro: 'Sitios web y aplicaciones a medida, construidos con tecnologías modernas y código limpio.',
+    url: '/servicios/desarrollo-web'
   },
   {
     id: 2,
-    title: 'Reseller Hosting',
+    title: 'Seguridad Web',
     image: '/images/icons/reseller-hosting.svg',
-    intro: 'Easily resell high performance, managed hosting services to your clients.',
-    url: '/hosting/reseller-hosting'
+    intro: 'Auditorías, detección de vulnerabilidades y protección activa para mantener tu sitio seguro.',
+    url: '/servicios/seguridad-web'
   },
   {
     id: 3,
-    title: 'WordPress Hosting',
+    title: 'Optimización y CMS',
     image: '/images/icons/wp-hosting.svg',
-    intro: 'Lightning-fast WordPress hosting designed for speed, security, and performance.',
-    url: '/hosting/wordpress-hosting'
+    intro: 'Mejora el rendimiento de tu sitio y gestiona tu contenido con WordPress, Prestashop y más.',
+    url: '/servicios/optimizacion-cms'
   }
 ];
