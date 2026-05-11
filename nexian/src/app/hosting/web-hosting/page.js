@@ -4,8 +4,8 @@ import FeaturesHosting from "@/parts/components/FeaturesHosting";
 import ActionCardHosting from "@/parts/components/ActionCardHosting";
 
 export const metadata = {
-  title: "Servicios de Software | Desarrollo a Medida y Ciberseguridad",
-  description: "Soluciones de software personalizadas, inteligencia artificial y ciberseguridad. Optimizamos procesos y blindamos infraestructuras digitales.",
+  title: "Optimización Web | Velocidad y Rendimiento | Darki",
+  description: "Mejora la velocidad de carga, el rendimiento y el SEO técnico de tu sitio web. Análisis completo y optimización profesional para que tu página vuele.",
 };
 
 export default function Hosting() {
@@ -16,17 +16,17 @@ export default function Hosting() {
           <div className="container">
             <div className="page-header-container">
               <Breadcrumb />
-              <h1 className="page-title">Soluciones de Software y Seguridad</h1>
+              <h1 className="page-title">Optimización de Páginas Web</h1>
               <p className="width-6 font-size-medium">
-                Desarrollo ágil de aplicaciones, optimización de plataformas y blindaje técnico diseñado para escalar tu negocio con seguridad y eficiencia.
+                Mejora la velocidad, el rendimiento y la experiencia de usuario de tu sitio web con técnicas avanzadas de optimización que se traducen en más visitas y más conversiones.
               </p>
               <ul className="width-6 flex-container gap-2 list-check">
-                <li>Desarrollo Full-Stack</li>
-                <li>Mitigación de Vulnerabilidades</li>
-                <li>Automatización con IA</li>
-                <li>Arquitectura Escalable</li>
-                <li>Gestión de Parches</li>
-                <li>Optimización de Rendimiento</li>
+                <li>Optimización de Imágenes</li>
+                <li>Configuración de Caché</li>
+                <li>Mejora de Core Web Vitals</li>
+                <li>Minificación de Recursos</li>
+                <li>SEO Técnico</li>
+                <li>Optimización de Base de Datos</li>
               </ul>
             </div>
           </div>

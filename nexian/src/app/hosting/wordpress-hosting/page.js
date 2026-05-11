@@ -4,8 +4,8 @@ import FeaturesHosting from "@/parts/components/FeaturesHosting";
 import ActionCardHosting from "@/parts/components/ActionCardHosting";
 
 export const metadata = {
-  title: "Servicios de Software | Desarrollo a Medida y Ciberseguridad",
-  description: "Soluciones de software personalizadas, inteligencia artificial y ciberseguridad. Optimizamos procesos y blindamos infraestructuras digitales.",
+  title: "Software a la Medida | Desarrollo de Aplicaciones | Nexian",
+  description: "Desarrollo de software personalizado para automatizar procesos, gestionar datos y hacer crecer tu negocio con soluciones tecnológicas hechas exactamente para ti.",
 };
 
 export default function Hosting() {
@@ -16,17 +16,17 @@ export default function Hosting() {
           <div className="container">
             <div className="page-header-container">
               <Breadcrumb />
-              <h1 className="page-title">Soluciones de Software y Seguridad</h1>
+              <h1 className="page-title">Software a la Medida</h1>
               <p className="width-6 font-size-medium">
-                Desarrollo ágil de aplicaciones, optimización de plataformas y blindaje técnico diseñado para escalar tu negocio con seguridad y eficiencia.
+                Desarrollo aplicaciones y sistemas personalizados que se adaptan exactamente a los procesos de tu negocio, eliminando limitaciones de soluciones genéricas y ahorrándote tiempo y dinero.
               </p>
               <ul className="width-6 flex-container gap-2 list-check">
-                <li>Desarrollo Full-Stack</li>
-                <li>Mitigación de Vulnerabilidades</li>
-                <li>Automatización con IA</li>
-                <li>Arquitectura Escalable</li>
-                <li>Gestión de Parches</li>
-                <li>Optimización de Rendimiento</li>
+                <li>Aplicaciones Web</li>
+                <li>Sistemas de Gestión</li>
+                <li>Automatización de Procesos</li>
+                <li>APIs e Integraciones</li>
+                <li>Paneles Administrativos</li>
+                <li>Mantenimiento y Soporte</li>
               </ul>
             </div>
           </div>

@@ -4,8 +4,8 @@ import FeaturesHosting from "@/parts/components/FeaturesHosting";
 import ActionCardHosting from "@/parts/components/ActionCardHosting";
 
 export const metadata = {
-  title: "Servicios de Software | Desarrollo a Medida y Ciberseguridad",
-  description: "Soluciones de software personalizadas, inteligencia artificial y ciberseguridad. Optimizamos procesos y blindamos infraestructuras digitales.",
+  title: "Servicios | Desarrollo Web, Seguridad y Optimización | Nexian",
+  description: "Desarrollo de sitios web, software a la medida, auditorías de seguridad y optimización de rendimiento. Soluciones profesionales para llevar tu negocio al siguiente nivel.",
 };
 
 export default function Hosting() {
@@ -16,17 +16,17 @@ export default function Hosting() {
           <div className="container">
             <div className="page-header-container">
               <Breadcrumb />
-              <h1 className="page-title">Soluciones de Software y Seguridad</h1>
+              <h1 className="page-title">Servicios Profesionales</h1>
               <p className="width-6 font-size-medium">
-                Desarrollo ágil de aplicaciones, optimización de plataformas y blindaje técnico diseñado para escalar tu negocio con seguridad y eficiencia.
+                Ofrezco soluciones digitales completas para tu negocio: desde la creación de tu sitio web hasta la seguridad y optimización de tu plataforma, con código limpio y resultados medibles.
               </p>
               <ul className="width-6 flex-container gap-2 list-check">
-                <li>Desarrollo Full-Stack</li>
-                <li>Mitigación de Vulnerabilidades</li>
-                <li>Automatización con IA</li>
-                <li>Arquitectura Escalable</li>
-                <li>Gestión de Parches</li>
+                <li>Creación de Sitios Web</li>
+                <li>Software a la Medida</li>
+                <li>Seguridad Web</li>
                 <li>Optimización de Rendimiento</li>
+                <li>Gestión de CMS</li>
+                <li>Mantenimiento y Soporte</li>
               </ul>
             </div>
           </div>

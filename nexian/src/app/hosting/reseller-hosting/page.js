@@ -4,8 +4,8 @@ import FeaturesHosting from "@/parts/components/FeaturesHosting";
 import ActionCardHosting from "@/parts/components/ActionCardHosting";
 
 export const metadata = {
-  title: "Servicios de Software | Desarrollo a Medida y Ciberseguridad",
-  description: "Soluciones de software personalizadas, inteligencia artificial y ciberseguridad. Optimizamos procesos y blindamos infraestructuras digitales.",
+  title: "Creación de Sitios Web | Desarrollo Profesional | Darki",
+  description: "Diseño y desarrollo de sitios web profesionales, landing pages y tiendas online a medida. Resultados rápidos, modernos y optimizados para tu negocio.",
 };
 
 export default function Hosting() {
@@ -16,17 +16,17 @@ export default function Hosting() {
           <div className="container">
             <div className="page-header-container">
               <Breadcrumb />
-              <h1 className="page-title">Soluciones de Software y Seguridad</h1>
+              <h1 className="page-title">Creación de Sitios Web</h1>
               <p className="width-6 font-size-medium">
-                Desarrollo ágil de aplicaciones, optimización de plataformas y blindaje técnico diseñado para escalar tu negocio con seguridad y eficiencia.
+                Diseño y desarrollo de sitios web modernos, rápidos y adaptados a tu negocio. Desde una landing page hasta una tienda online completa, con código limpio y resultados reales.
               </p>
               <ul className="width-6 flex-container gap-2 list-check">
-                <li>Desarrollo Full-Stack</li>
-                <li>Mitigación de Vulnerabilidades</li>
-                <li>Automatización con IA</li>
-                <li>Arquitectura Escalable</li>
-                <li>Gestión de Parches</li>
-                <li>Optimización de Rendimiento</li>
+                <li>Diseño Responsive</li>
+                <li>Landing Pages</li>
+                <li>Tiendas Online</li>
+                <li>Sitios Corporativos</li>
+                <li>Integración con CMS</li>
+                <li>SEO desde el Inicio</li>
               </ul>
             </div>
           </div>

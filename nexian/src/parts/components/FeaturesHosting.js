@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function FeaturesHosting() {
   return (
     <section className="section section-features">
-      <h2 className="section-title">Why Choose Darki</h2>
+      <h2 className="section-title">¿Por Qué Elegir Nexian?</h2>
       <div className="section-small">
-        <p className="font-size-medium width-5">Darki delivers fast, secure, and reliable hosting designed to power modern websites and growing online businesses.</p>
+        <p className="font-size-medium width-5">Desarrollo web profesional, seguridad aplicada y optimización real para que tu proyecto funcione rápido, seguro y sin problemas.</p>
       </div>
       <div className="cards cards-feature">
         {FeaturesHostingData.map((item) => <div key={item.id} className="card card-feature">
