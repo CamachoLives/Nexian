@@ -7,6 +7,7 @@ export const metadata = {
 };
 
 
+
 export default function About() {
   return (
     <main className="main main-about">
