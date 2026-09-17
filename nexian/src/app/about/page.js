@@ -5,7 +5,6 @@ export const metadata = {
   title: "About Darki Hosting | Fast Web Hosting & Server Infrastructure",
   description: "Get to know Darki Hosting, our technology, infrastructure, and dedication to providing fast, reliable web hosting and server solutions.",
 };
-
 export default function About() {
   return (
     <main className="main main-about">
