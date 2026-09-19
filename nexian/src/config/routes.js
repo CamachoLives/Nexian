@@ -13,10 +13,10 @@ export const ROUTES = {
   seguridad: "/integraciones/seguridad",
   automatizacion: "/integraciones/automatizacion",
 
-  desarrollo: "/dedicated",
-  soporte: "/support",
-  contacto: "/contact",
-  nosotros: "/about",
+  desarrollo: "/desarrollo",
+  soporte: "/soporte",
+  contacto: "/contacto",
+  nosotros: "/nosotros",
 
   terminos: "/terms",
   reembolso: "/refund",

@@ -8,7 +8,7 @@ export const metadata = {
   description: "Desarrollo web profesional, auditorías de seguridad, optimización de rendimiento y gestión de CMS para llevar tu proyecto al siguiente nivel.",
 };
 
-export default function Dedicated() {
+export default function Desarrollo() {
   return (
     <main className="main">
       <article>

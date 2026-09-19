@@ -8,7 +8,7 @@ export const metadata = {
   description: "Contáctame para hablar sobre tu proyecto web, consultar sobre servicios de desarrollo, seguridad u optimización. Estoy aquí para ayudarte.",
 };
 
-export default function Contact() {
+export default function Contacto() {
   return (
     <main className="main">
       <article>

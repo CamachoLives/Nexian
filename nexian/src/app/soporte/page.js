@@ -7,7 +7,7 @@ export const metadata = {
   description: "Accede al centro de soporte de Nexian para obtener ayuda con desarrollo web, seguridad, optimización de páginas, CMS y más.",
 };
 
-export default function Support(){
+export default function Soporte(){
   return(
     <main className="main">
       <article>

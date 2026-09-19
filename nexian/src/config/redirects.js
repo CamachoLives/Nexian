@@ -12,6 +12,10 @@ export const REDIRECTS = {
   "/vps/kvm-vps": ROUTES.inteligenciaArtificial,
   "/vps/managed-vps": ROUTES.seguridad,
   "/vps/storage-vps": ROUTES.automatizacion,
+  "/dedicated": ROUTES.desarrollo,
+  "/support": ROUTES.soporte,
+  "/contact": ROUTES.contacto,
+  "/about": ROUTES.nosotros,
 
   // Alias en español que se usaron en enlaces antiguos del sitio.
   "/servicios/desarrollo-a-medida": ROUTES.softwareMedida,
