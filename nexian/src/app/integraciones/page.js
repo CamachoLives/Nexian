@@ -2,7 +2,7 @@ import PageHeader from "@/parts/components/PageHeader";
 import VpsTypes from "@/parts/components/VpsTypes";
 import FeaturesVps from "@/parts/components/FeaturesVps";
 import Testimonial from "@/parts/components/Testimonial";
-import ActionCardVps from "@/parts/components/ActionCardVps";
+import ActionCard from "@/parts/components/ActionCard";
 
 export const metadata = {
   title: "Integraciones | IA, Automatizaciones y Seguridad",
@@ -31,7 +31,7 @@ export default function Integraciones(){
               <VpsTypes />
               <FeaturesVps />
               <Testimonial />
-              <ActionCardVps />
+              <ActionCard />
               <div className="spacer-3"></div>
             </div>
           </div>

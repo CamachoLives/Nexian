@@ -1,5 +1,5 @@
 import PageHeader from "@/parts/components/PageHeader";
-import ActionCardHosting from "@/parts/components/ActionCardHostingVps";
+import ActionCard from "@/parts/components/ActionCard";
 import Testimonial from "@/parts/components/Testimonial";
 
 export const metadata = {
@@ -53,7 +53,7 @@ export default function Nosotros() {
                 </section>
               ))}
               <Testimonial />
-              <ActionCardHosting />
+              <ActionCard compactOnMobile />
               <div className="spacer-3"></div>
             </div>
           </div>

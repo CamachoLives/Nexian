@@ -1,7 +1,7 @@
 import PageHeader from "@/parts/components/PageHeader";
 import HostingTypes from "@/parts/components/HostingTypes";
 import FeaturesHosting from "@/parts/components/FeaturesHosting";
-import ActionCardHosting from "@/parts/components/ActionCardHosting";
+import ActionCard from "@/parts/components/ActionCard";
 
 export const metadata = {
   title: "Servicios | Desarrollo Web, Seguridad y Optimización",
@@ -29,7 +29,7 @@ export default function Servicios() {
             <div className="content-container">
               <HostingTypes />
               <FeaturesHosting />
-              <ActionCardHosting />
+              <ActionCard />
               <div className="spacer-3"></div>
             </div>
           </div>

@@ -2,7 +2,7 @@ import Hero from "@/parts/main/Hero";
 import HostingServices from "@/parts/components/HostingServices";
 import Features from "@/parts/components/Features";
 import Testimonial from "@/parts/components/Testimonial";
-import ActionCardHostingVps from "@/parts/components/ActionCardHostingVps";
+import ActionCard from "@/parts/components/ActionCard";
 import { siteConfig } from "@/config/site";
 
 export const metadata = {
@@ -20,7 +20,7 @@ export default function Home() {
             <HostingServices />
             <Features />
             <Testimonial />
-            <ActionCardHostingVps />
+            <ActionCard compactOnMobile />
             <div className="spacer-3"></div>
           </div>
         </div>
