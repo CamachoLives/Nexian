@@ -4,7 +4,7 @@ import FeaturesDedicated from "@/parts/components/FeaturesDedicated";
 import PlansDedicated from "@/parts/plans/PlansDedicated";
 
 export const metadata = {
-  title: "Servicios de Desarrollo Web | Seguridad y Optimización | Darki",
+  title: "Servicios de Desarrollo Web | Seguridad y Optimización",
   description: "Desarrollo web profesional, auditorías de seguridad, optimización de rendimiento y gestión de CMS para llevar tu proyecto al siguiente nivel.",
 };
 

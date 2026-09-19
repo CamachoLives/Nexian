@@ -4,7 +4,7 @@ import FeaturesHosting from "@/parts/components/FeaturesHosting";
 import ActionCardHosting from "@/parts/components/ActionCardHosting";
 
 export const metadata = {
-  title: "Creación de Sitios Web | Desarrollo Profesional | Darki",
+  title: "Creación de Sitios Web | Desarrollo Profesional",
   description: "Diseño y desarrollo de sitios web profesionales, landing pages y tiendas online a medida. Resultados rápidos, modernos y optimizados para tu negocio.",
 };
 

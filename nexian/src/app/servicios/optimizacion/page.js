@@ -4,7 +4,7 @@ import FeaturesHosting from "@/parts/components/FeaturesHosting";
 import ActionCardHosting from "@/parts/components/ActionCardHosting";
 
 export const metadata = {
-  title: "Optimización Web | Velocidad y Rendimiento | Darki",
+  title: "Optimización Web | Velocidad y Rendimiento",
   description: "Mejora la velocidad de carga, el rendimiento y el SEO técnico de tu sitio web. Análisis completo y optimización profesional para que tu página vuele.",
 };
 

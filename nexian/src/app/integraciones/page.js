@@ -5,7 +5,7 @@ import Testimonial from "@/parts/components/Testimonial";
 import ActionCardVps from "@/parts/components/ActionCardVps";
 
 export const metadata = {
-  title: "Integraciones | IA, Automatizaciones y Seguridad | Nexian",
+  title: "Integraciones | IA, Automatizaciones y Seguridad",
   description: "Integra inteligencia artificial, automatiza procesos y refuerza la seguridad de tu negocio con soluciones tecnológicas avanzadas y personalizadas.",
 };
 

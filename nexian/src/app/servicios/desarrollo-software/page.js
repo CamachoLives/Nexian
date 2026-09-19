@@ -4,7 +4,7 @@ import FeaturesHosting from "@/parts/components/FeaturesHosting";
 import ActionCardHosting from "@/parts/components/ActionCardHosting";
 
 export const metadata = {
-  title: "Software a la Medida | Desarrollo de Aplicaciones | Nexian",
+  title: "Software a la Medida | Desarrollo de Aplicaciones",
   description: "Desarrollo de software personalizado para automatizar procesos, gestionar datos y hacer crecer tu negocio con soluciones tecnológicas hechas exactamente para ti.",
 };
 

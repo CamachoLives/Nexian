@@ -3,7 +3,7 @@ import ContactSupportCards from "@/parts/components/ContactSupportCards";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Centro de Soporte | Ayuda Técnica | Nexian",
+  title: "Centro de Soporte | Ayuda Técnica",
   description: "Accede al centro de soporte de Nexian para obtener ayuda con desarrollo web, seguridad, optimización de páginas, CMS y más.",
 };
 

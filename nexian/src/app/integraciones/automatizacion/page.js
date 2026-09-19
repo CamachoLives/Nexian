@@ -4,7 +4,7 @@ import FeaturesVps from "@/parts/components/FeaturesVps";
 import FaqVps from "@/parts/components/FaqVps";
 
 export const metadata = {
-  title: "Automatizaciones | Flujos de Trabajo y Procesos Automáticos | Nexian",
+  title: "Automatizaciones | Flujos de Trabajo y Procesos Automáticos",
   description: "Automatiza tareas repetitivas, flujos de trabajo y procesos administrativos para ahorrar tiempo, reducir errores y escalar tu negocio.",
 };
 

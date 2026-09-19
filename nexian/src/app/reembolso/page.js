@@ -1,7 +1,7 @@
 import Breadcrumb from "@/parts/components/Breadcrumb";
 
 export const metadata = {
-  title: "Política de Reembolso | Nexian",
+  title: "Política de Reembolso",
   description: "Conoce las condiciones de reembolso y facturación de los servicios de Nexian.",
 };
 

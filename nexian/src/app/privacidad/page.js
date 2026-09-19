@@ -1,7 +1,7 @@
 import Breadcrumb from "@/parts/components/Breadcrumb";
 
 export const metadata = {
-  title: "Política de Privacidad | Nexian",
+  title: "Política de Privacidad",
   description: "Conoce cómo Nexian recopila, usa y protege tu información personal.",
 };
 

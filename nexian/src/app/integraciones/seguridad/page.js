@@ -4,7 +4,7 @@ import FeaturesVps from "@/parts/components/FeaturesVps";
 import FaqVps from "@/parts/components/FaqVps";
 
 export const metadata = {
-  title: "Seguridad Web | Auditorías y Protección Avanzada | Darki",
+  title: "Seguridad Web | Auditorías y Protección Avanzada",
   description: "Auditorías de seguridad, detección de vulnerabilidades, protección contra malware y monitoreo continuo para mantener tu plataforma segura y blindada.",
 };
 

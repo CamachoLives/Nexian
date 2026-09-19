@@ -4,7 +4,7 @@ import FeaturesVps from "@/parts/components/FeaturesVps";
 import FaqVps from "@/parts/components/FaqVps";
 
 export const metadata = {
-  title: "Inteligencia Artificial | Integración y Automatización con IA | Darki",
+  title: "Inteligencia Artificial | Integración y Automatización con IA",
   description: "Integra modelos de inteligencia artificial en tu negocio para automatizar tareas, analizar datos y mejorar la experiencia de tus clientes.",
 };
 

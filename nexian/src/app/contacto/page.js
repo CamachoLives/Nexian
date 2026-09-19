@@ -4,7 +4,7 @@ import ContactCards from "@/parts/components/ContactCards";
 import ContactSupportCards from "@/parts/components/ContactSupportCards";
 
 export const metadata = {
-  title: "Contacto | Desarrollo Web y Seguridad | Darki",
+  title: "Contacto | Desarrollo Web y Seguridad",
   description: "Contáctame para hablar sobre tu proyecto web, consultar sobre servicios de desarrollo, seguridad u optimización. Estoy aquí para ayudarte.",
 };
 

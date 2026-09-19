@@ -1,7 +1,7 @@
 import Breadcrumb from "@/parts/components/Breadcrumb";
 
 export const metadata = {
-  title: "Términos y Condiciones | Nexian",
+  title: "Términos y Condiciones",
   description: "Consulta los términos y condiciones que rigen el uso de los servicios de Nexian.",
 };
 

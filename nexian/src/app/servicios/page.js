@@ -4,7 +4,7 @@ import FeaturesHosting from "@/parts/components/FeaturesHosting";
 import ActionCardHosting from "@/parts/components/ActionCardHosting";
 
 export const metadata = {
-  title: "Servicios | Desarrollo Web, Seguridad y Optimización | Nexian",
+  title: "Servicios | Desarrollo Web, Seguridad y Optimización",
   description: "Desarrollo de sitios web, software a la medida, auditorías de seguridad y optimización de rendimiento. Soluciones profesionales para llevar tu negocio al siguiente nivel.",
 };
 
