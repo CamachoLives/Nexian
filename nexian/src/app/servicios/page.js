@@ -8,7 +8,7 @@ export const metadata = {
   description: "Desarrollo de sitios web, software a la medida, auditorías de seguridad y optimización de rendimiento. Soluciones profesionales para llevar tu negocio al siguiente nivel.",
 };
 
-export default function Hosting() {
+export default function Servicios() {
   return (
     <main className="main main-hosting">
       <article>

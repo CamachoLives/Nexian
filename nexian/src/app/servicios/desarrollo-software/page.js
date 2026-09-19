@@ -8,7 +8,7 @@ export const metadata = {
   description: "Desarrollo de software personalizado para automatizar procesos, gestionar datos y hacer crecer tu negocio con soluciones tecnológicas hechas exactamente para ti.",
 };
 
-export default function Hosting() {
+export default function DesarrolloSoftware() {
   return (
     <main className="main main-hosting">
       <article>

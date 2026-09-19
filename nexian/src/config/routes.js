@@ -3,10 +3,10 @@
 export const ROUTES = {
   inicio: "/",
 
-  servicios: "/hosting",
-  optimizacion: "/hosting/web-hosting",
-  paginasWeb: "/hosting/reseller-hosting",
-  softwareMedida: "/hosting/wordpress-hosting",
+  servicios: "/servicios",
+  optimizacion: "/servicios/optimizacion",
+  paginasWeb: "/servicios/paginas-web",
+  softwareMedida: "/servicios/desarrollo-software",
 
   integraciones: "/vps",
   inteligenciaArtificial: "/vps/kvm-vps",

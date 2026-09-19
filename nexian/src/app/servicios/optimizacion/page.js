@@ -4,11 +4,11 @@ import FeaturesHosting from "@/parts/components/FeaturesHosting";
 import ActionCardHosting from "@/parts/components/ActionCardHosting";
 
 export const metadata = {
-  title: "Creación de Sitios Web | Desarrollo Profesional | Darki",
-  description: "Diseño y desarrollo de sitios web profesionales, landing pages y tiendas online a medida. Resultados rápidos, modernos y optimizados para tu negocio.",
+  title: "Optimización Web | Velocidad y Rendimiento | Darki",
+  description: "Mejora la velocidad de carga, el rendimiento y el SEO técnico de tu sitio web. Análisis completo y optimización profesional para que tu página vuele.",
 };
 
-export default function Hosting() {
+export default function Optimizacion() {
   return (
     <main className="main main-hosting">
       <article>
@@ -16,17 +16,17 @@ export default function Hosting() {
           <div className="container">
             <div className="page-header-container">
               <Breadcrumb />
-              <h1 className="page-title">Creación de Sitios Web</h1>
+              <h1 className="page-title">Optimización de Páginas Web</h1>
               <p className="width-6 font-size-medium">
-                Diseño y desarrollo de sitios web modernos, rápidos y adaptados a tu negocio. Desde una landing page hasta una tienda online completa, con código limpio y resultados reales.
+                Mejora la velocidad, el rendimiento y la experiencia de usuario de tu sitio web con técnicas avanzadas de optimización que se traducen en más visitas y más conversiones.
               </p>
               <ul className="width-6 flex-container gap-2 list-check">
-                <li>Diseño Responsive</li>
-                <li>Landing Pages</li>
-                <li>Tiendas Online</li>
-                <li>Sitios Corporativos</li>
-                <li>Integración con CMS</li>
-                <li>SEO desde el Inicio</li>
+                <li>Optimización de Imágenes</li>
+                <li>Configuración de Caché</li>
+                <li>Mejora de Core Web Vitals</li>
+                <li>Minificación de Recursos</li>
+                <li>SEO Técnico</li>
+                <li>Optimización de Base de Datos</li>
               </ul>
             </div>
           </div>
