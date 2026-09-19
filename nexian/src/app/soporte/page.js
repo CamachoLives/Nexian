@@ -1,6 +1,8 @@
 import PageHeader from "@/parts/components/PageHeader";
 import ContactSupportCards from "@/parts/components/ContactSupportCards";
 import Link from "next/link";
+import { ROUTES } from "@/config/routes";
+import { siteConfig } from "@/config/site";
 
 export const metadata = {
   title: "Centro de Soporte | Ayuda Técnica",
@@ -16,9 +18,9 @@ export default function Soporte(){
           description="Explora guías de ayuda, abre tickets de soporte y consulta el estado de tus servicios para mantener tu proyecto web funcionando sin problemas."
         >
           <div className="flex-container gap-2">
-            <p className="button" >Contactar con Ventas</p>
-            <p className="button" >Documentación</p>
-            <p className="button" >Abrir Ticket de Soporte</p>
+            <Link className="button" href={ROUTES.contacto}>Contactar con Ventas</Link>
+            <Link className="button" href={siteConfig.contact.whatsapp} target="_blank" rel="noopener noreferrer">WhatsApp</Link>
+            <Link className="button" href={`${siteConfig.contact.emailHref}?subject=${encodeURIComponent("Ticket de soporte")}`}>Abrir Ticket de Soporte</Link>
           </div>
         </PageHeader>
         <section className="content">

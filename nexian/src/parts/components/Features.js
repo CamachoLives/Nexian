@@ -1,4 +1,5 @@
 import { FeaturesData } from "@/data/components/FeaturesData";
+import Image from "next/image";
 
 export default function Features() {
   return (
@@ -9,7 +10,7 @@ export default function Features() {
       </div>
       <div className="cards cards-feature">
         {FeaturesData.map((item) => <div key={item.id} className="card card-feature">
-          <div className="card-icon"><img className="image-size-x3" src={item.image} alt={item.title} /></div>
+          <div className="card-icon"><Image className="image-size-x3" src={item.image} alt="" width={48} height={48} /></div>
           <h3 className="card-title">{item.title}</h3>
           <p className="card-text">{item.text}</p>
         </div>)}

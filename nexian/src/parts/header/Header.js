@@ -12,7 +12,7 @@ export default function Header() {
             <Link href="/">
               <Image className="logo"
                 src="/images/svg.svg"
-                alt="Company Logo"
+                alt={`${siteConfig.name} - Inicio`}
                 height={30}
                 width={0}
                 priority

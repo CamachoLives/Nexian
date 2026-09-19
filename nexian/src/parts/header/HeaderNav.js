@@ -4,20 +4,20 @@ import { HeaderNavData } from "@/data/header/HeaderNavData";
 import { useState } from "react";
 import Link from "next/link";
 
-export default function MainNav() {
+export default function HeaderNav() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <div className="main-nav-container">
       <div className="view-mobile mobile-menu-button">
-        <button className={`mobile-menu-icon ${menuOpen ? "active-mobile-menu-icon" : ""}`} aria-label={menuOpen ? "Close main menu" : "Open main menu"} aria-expanded={menuOpen} onClick={() => setMenuOpen(!menuOpen)}>
+        <button type="button" className={`mobile-menu-icon ${menuOpen ? "active-mobile-menu-icon" : ""}`} aria-label={menuOpen ? "Cerrar menú principal" : "Abrir menú principal"} aria-expanded={menuOpen} onClick={() => setMenuOpen(!menuOpen)}>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
         </button>
       </div>
-      <nav aria-label="Main navigation" className={`main-nav ${menuOpen ? "active-mobile-menu" : ""}`}>
-        <button aria-label="Close main menu" className="mobile-menu-close" onClick={() => setMenuOpen(false)}>
+      <nav aria-label="Navegación principal" className={`main-nav ${menuOpen ? "active-mobile-menu" : ""}`}>
+        <button type="button" aria-label="Cerrar menú principal" className="mobile-menu-close" onClick={() => setMenuOpen(false)}>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
         </button>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { siteConfig } from "@/config/site";
 
 export default function FooterMainAbout() {
   return (
@@ -7,7 +8,7 @@ export default function FooterMainAbout() {
         <Image 
           className="logo"
           src="/images/svg.svg"
-          alt="Company Logo"
+          alt={siteConfig.name}
           height={30}
           width={120} 
           priority

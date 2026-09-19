@@ -10,6 +10,7 @@ export const siteConfig = {
   locale: "es_CO",
   contact: {
     email: "rfcamacris@gmail.com",
+    emailHref: "mailto:rfcamacris@gmail.com",
     phone: "+57 314 891 7721",
     phoneHref: `tel:+${whatsappNumber}`,
     whatsapp: `https://wa.me/${whatsappNumber}`,

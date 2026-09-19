@@ -17,7 +17,13 @@ export default function ContactSupportCards() {
             </div>
             <h3 className="card-title">{item.title}</h3>
             <p>{item.content}</p>
-            <Link className="button" href={item.url}>{item.buttonText}</Link>
+            <Link
+              className="button"
+              href={item.url}
+              {...(item.url.startsWith("http") && { target: "_blank", rel: "noopener noreferrer" })}
+            >
+              {item.buttonText}
+            </Link>
           </div>
         ))}
       </div>

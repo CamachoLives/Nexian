@@ -2,6 +2,8 @@ import PageHeader from "@/parts/components/PageHeader";
 import Link from "next/link";
 import ContactCards from "@/parts/components/ContactCards";
 import ContactSupportCards from "@/parts/components/ContactSupportCards";
+import { ROUTES } from "@/config/routes";
+import { siteConfig } from "@/config/site";
 
 export const metadata = {
   title: "Contacto | Desarrollo Web y Seguridad",
@@ -17,9 +19,9 @@ export default function Contacto() {
           description="¿Tienes un proyecto en mente o necesitas ayuda con tu sitio web? Cuéntame tu caso y encontramos juntos la mejor solución."
         >
           <div className="flex-container gap-2">
-            <Link className="button" href="#">Solicitar Presupuesto</Link>
-            <Link className="button" href="#">Documentación</Link>
-            <Link className="button" href="#">Abrir Ticket de Soporte</Link>
+            <Link className="button" href={siteConfig.contact.whatsapp} target="_blank" rel="noopener noreferrer">Solicitar Presupuesto</Link>
+            <Link className="button" href={ROUTES.servicios}>Ver Servicios</Link>
+            <Link className="button" href={ROUTES.soporte}>Centro de Soporte</Link>
           </div>
         </PageHeader>
         <section className="content">
