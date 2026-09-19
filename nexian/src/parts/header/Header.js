@@ -1,6 +1,7 @@
 import HeaderNav from "@/parts/header/HeaderNav";
 import Link from "next/link";
 import Image from "next/image";
+import { siteConfig } from "@/config/site";
 
 export default function Header() {
   return (
@@ -21,12 +22,12 @@ export default function Header() {
           <div className="header-right">
             <HeaderNav />
             <div className="header-action view-in-desktop">
-              <Link className="header-button" href="https://wa.me/573148917721" target="_blank" rel="noopener noreferrer">
-                <i className="icon-user"></i> Contactanos
+              <Link className="header-button" href={siteConfig.contact.whatsapp} target="_blank" rel="noopener noreferrer">
+                <i className="icon-user"></i> Contáctanos
               </Link>
             </div>
             <div className="header-user-icon">
-              <Link className="header-user-button" href="https://wa.me/573148917721" aria-label="Contactanos"><i className="icon-user"></i><span className="screen-reader-text"> Contactanos </span></Link>
+              <Link className="header-user-button" href={siteConfig.contact.whatsapp} target="_blank" rel="noopener noreferrer" aria-label="Contáctanos por WhatsApp"><i className="icon-user"></i><span className="screen-reader-text"> Contáctanos </span></Link>
             </div>
           </div>
         </div>

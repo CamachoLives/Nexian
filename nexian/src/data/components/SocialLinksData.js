@@ -1,3 +1,5 @@
+import { siteConfig } from "@/config/site";
+
 export const SocialLinksData = [
   // {
   //   name: "Twitter",
@@ -11,12 +13,12 @@ export const SocialLinksData = [
   // },
   {
     name: "Whatsapp",
-    url: "https://wa.me/573148917721",
+    url: siteConfig.contact.whatsapp,
     icon: "icon-whatsapp"
   },
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/cristiancamacho2004/",
+    url: siteConfig.social.linkedin,
     icon: "icon-linkedin"
   }
 ];
