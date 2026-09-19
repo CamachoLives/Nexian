@@ -1,4 +1,4 @@
-import Breadcrumb from "@/parts/components/Breadcrumb";
+import PageHeader from "@/parts/components/PageHeader";
 import PlansStorageVps from "@/parts/plans/PlansStorageVps";
 import FeaturesVps from "@/parts/components/FeaturesVps";
 import FaqVps from "@/parts/components/FaqVps";
@@ -12,23 +12,18 @@ export default function Automatizacion(){
   return(
     <main className="main">
       <article>
-        <header className="page-header">
-          <div className="container">
-            <div className="page-header-container">
-              <Breadcrumb />
-              <h1 className="page-title">Automatizaciones</h1>
-              <p className="width-6 font-size-medium">Elimina las tareas repetitivas de tu negocio con flujos de trabajo automatizados que trabajan por ti las 24 horas, reduciendo errores y liberando tu tiempo para lo que realmente importa.</p>
-              <ul className="width-6 flex-container gap-2 list-check">
-                <li>Automatización de Correos</li>
-                <li>Flujos de Trabajo</li>
-                <li>Integración entre Plataformas</li>
-                <li>Reportes Automáticos</li>
-                <li>Notificaciones Inteligentes</li>
-                <li>Sincronización de Datos</li>
-              </ul>
-            </div>
-          </div>
-        </header>
+        <PageHeader
+          title="Automatizaciones"
+          description="Elimina las tareas repetitivas de tu negocio con flujos de trabajo automatizados que trabajan por ti las 24 horas, reduciendo errores y liberando tu tiempo para lo que realmente importa."
+          highlights={[
+            "Automatización de Correos",
+            "Flujos de Trabajo",
+            "Integración entre Plataformas",
+            "Reportes Automáticos",
+            "Notificaciones Inteligentes",
+            "Sincronización de Datos",
+          ]}
+        />
         <section className="content">
           <div className="container">
             <div className="content-container">

@@ -1,4 +1,4 @@
-import Breadcrumb from "@/parts/components/Breadcrumb";
+import PageHeader from "@/parts/components/PageHeader";
 import PlansVps from "@/parts/plans/PlansVps";
 import FeaturesVps from "@/parts/components/FeaturesVps";
 import FaqVps from "@/parts/components/FaqVps";
@@ -12,23 +12,18 @@ export default function InteligenciaArtificial(){
   return(
     <main className="main">
       <article>
-        <header className="page-header">
-          <div className="container">
-            <div className="page-header-container">
-              <Breadcrumb />
-              <h1 className="page-title">Inteligencia Artificial</h1>
-              <p className="width-6 font-size-medium">Integra el poder de la inteligencia artificial en tu negocio para automatizar procesos, tomar mejores decisiones con datos y ofrecer experiencias personalizadas a tus clientes.</p>
-              <ul className="width-6 flex-container gap-2 list-check">
-                <li>Chatbots y Asistentes Virtuales</li>
-                <li>Análisis Predictivo</li>
-                <li>Procesamiento de Lenguaje Natural</li>
-                <li>Automatización con IA</li>
-                <li>Integración con APIs de IA</li>
-                <li>Modelos Personalizados</li>
-              </ul>
-            </div>
-          </div>
-        </header>
+        <PageHeader
+          title="Inteligencia Artificial"
+          description="Integra el poder de la inteligencia artificial en tu negocio para automatizar procesos, tomar mejores decisiones con datos y ofrecer experiencias personalizadas a tus clientes."
+          highlights={[
+            "Chatbots y Asistentes Virtuales",
+            "Análisis Predictivo",
+            "Procesamiento de Lenguaje Natural",
+            "Automatización con IA",
+            "Integración con APIs de IA",
+            "Modelos Personalizados",
+          ]}
+        />
         <section className="content">
           <div className="container">
             <div className="content-container">

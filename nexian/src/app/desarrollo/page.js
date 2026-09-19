@@ -1,4 +1,4 @@
-import Breadcrumb from "@/parts/components/Breadcrumb";
+import PageHeader from "@/parts/components/PageHeader";
 import FaqDedicated from "@/parts/components/FaqDedicated";
 import FeaturesDedicated from "@/parts/components/FeaturesDedicated";
 import PlansDedicated from "@/parts/plans/PlansDedicated";
@@ -12,21 +12,16 @@ export default function Desarrollo() {
   return (
     <main className="main">
       <article>
-        <header className="page-header">
-          <div className="container">
-            <div className="page-header-container">
-              <Breadcrumb />
-              <h1 className="page-title">Servicios de Desarrollo</h1>
-              <p className="width-6 font-size-medium">Soluciones web a medida con código limpio, seguridad aplicada y rendimiento optimizado para que tu proyecto destaque y funcione sin problemas.</p>
-              <ul className="width-6 flex-container gap-2 list-check">
-                <li>Desarrollo a Medida</li>
-                <li>Seguridad Web</li>
-                <li>Optimización de Rendimiento</li>
-                <li>Gestión de CMS</li>
-              </ul>
-            </div>
-          </div>
-        </header>
+        <PageHeader
+          title="Servicios de Desarrollo"
+          description="Soluciones web a medida con código limpio, seguridad aplicada y rendimiento optimizado para que tu proyecto destaque y funcione sin problemas."
+          highlights={[
+            "Desarrollo a Medida",
+            "Seguridad Web",
+            "Optimización de Rendimiento",
+            "Gestión de CMS",
+          ]}
+        />
         <section className="content">
           <div className="container">
             <div className="content-container">

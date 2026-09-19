@@ -1,4 +1,4 @@
-import Breadcrumb from "@/parts/components/Breadcrumb";
+import PageHeader from "@/parts/components/PageHeader";
 import ActionCardHosting from "@/parts/components/ActionCardHostingVps";
 import Testimonial from "@/parts/components/Testimonial";
 export const metadata = {
@@ -10,14 +10,9 @@ export default function Nosotros() {
   return (
     <main className="main main-about">
       <article>
-        <header className="page-header">
-          <div className="container">
-            <div className="page-header-container">
-              <Breadcrumb />
-              <h1 className="page-title">About Us</h1>
-            </div>
-          </div>
-        </header>
+        <PageHeader
+          title="About Us"
+        />
         <section className="content content-about">
           <div className="container">
             <div className="content-container about-content-container">

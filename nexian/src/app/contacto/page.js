@@ -1,4 +1,4 @@
-import Breadcrumb from "@/parts/components/Breadcrumb";
+import PageHeader from "@/parts/components/PageHeader";
 import Link from "next/link";
 import ContactCards from "@/parts/components/ContactCards";
 import ContactSupportCards from "@/parts/components/ContactSupportCards";
@@ -12,20 +12,16 @@ export default function Contacto() {
   return (
     <main className="main">
       <article>
-        <header className="page-header">
-          <div className="container">
-            <div className="page-header-container">
-              <Breadcrumb />
-              <h1 className="page-title">Contáctame</h1>
-              <p className="width-6 font-size-medium">¿Tienes un proyecto en mente o necesitas ayuda con tu sitio web? Cuéntame tu caso y encontramos juntos la mejor solución.</p>
-              <div className="flex-container gap-2">
-                <Link className="button" href="#">Solicitar Presupuesto</Link>
-                <Link className="button" href="#">Documentación</Link>
-                <Link className="button" href="#">Abrir Ticket de Soporte</Link>
-              </div>
-            </div>
+        <PageHeader
+          title="Contáctame"
+          description="¿Tienes un proyecto en mente o necesitas ayuda con tu sitio web? Cuéntame tu caso y encontramos juntos la mejor solución."
+        >
+          <div className="flex-container gap-2">
+            <Link className="button" href="#">Solicitar Presupuesto</Link>
+            <Link className="button" href="#">Documentación</Link>
+            <Link className="button" href="#">Abrir Ticket de Soporte</Link>
           </div>
-        </header>
+        </PageHeader>
         <section className="content">
           <div className="container">
             <div className="content-container">

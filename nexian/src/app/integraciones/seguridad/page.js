@@ -1,4 +1,4 @@
-import Breadcrumb from "@/parts/components/Breadcrumb";
+import PageHeader from "@/parts/components/PageHeader";
 import PlansManagedVps from "@/parts/plans/PlansManagedVps";
 import FeaturesVps from "@/parts/components/FeaturesVps";
 import FaqVps from "@/parts/components/FaqVps";
@@ -12,23 +12,18 @@ export default function Seguridad(){
   return(
     <main className="main">
       <article>
-        <header className="page-header">
-          <div className="container">
-            <div className="page-header-container">
-              <Breadcrumb />
-              <h1 className="page-title">Seguridad Web</h1>
-              <p className="width-6 font-size-medium">Protege tu sitio web y plataforma digital contra amenazas, vulnerabilidades y accesos no autorizados con auditorías profesionales y soluciones de seguridad avanzadas.</p>
-              <ul className="width-6 flex-container gap-2 list-check">
-                <li>Auditorías de Seguridad</li>
-                <li>Detección de Malware</li>
-                <li>Protección contra Ataques</li>
-                <li>Certificados SSL</li>
-                <li>Monitoreo Continuo</li>
-                <li>Hardening de Servidores</li>
-              </ul>
-            </div>
-          </div>
-        </header>
+        <PageHeader
+          title="Seguridad Web"
+          description="Protege tu sitio web y plataforma digital contra amenazas, vulnerabilidades y accesos no autorizados con auditorías profesionales y soluciones de seguridad avanzadas."
+          highlights={[
+            "Auditorías de Seguridad",
+            "Detección de Malware",
+            "Protección contra Ataques",
+            "Certificados SSL",
+            "Monitoreo Continuo",
+            "Hardening de Servidores",
+          ]}
+        />
         <section className="content">
           <div className="container">
             <div className="content-container">

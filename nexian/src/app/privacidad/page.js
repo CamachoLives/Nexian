@@ -1,4 +1,4 @@
-import Breadcrumb from "@/parts/components/Breadcrumb";
+import PageHeader from "@/parts/components/PageHeader";
 
 export const metadata = {
   title: "Política de Privacidad",
@@ -9,14 +9,9 @@ export default function Privacidad() {
   return (
     <main className="main">
       <article>
-        <header className="page-header">
-          <div className="container">
-            <div className="page-header-container">
-              <Breadcrumb />
-              <h1 className="page-title">Política de Privacidad</h1>
-            </div>
-          </div>
-        </header>
+        <PageHeader
+          title="Política de Privacidad"
+        />
         <section className="content">
           <div className="container">
             <div className="content-container">

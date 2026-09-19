@@ -1,4 +1,4 @@
-import Breadcrumb from "@/parts/components/Breadcrumb";
+import PageHeader from "@/parts/components/PageHeader";
 import VpsTypes from "@/parts/components/VpsTypes";
 import FeaturesVps from "@/parts/components/FeaturesVps";
 import Testimonial from "@/parts/components/Testimonial";
@@ -13,23 +13,18 @@ export default function Integraciones(){
   return(
     <main className="main">
       <article>
-        <header className="page-header">
-          <div className="container">
-            <div className="page-header-container">
-              <Breadcrumb />
-              <h1 className="page-title">Integraciones Avanzadas</h1>
-              <p className="width-6 font-size-medium">Potencia tu negocio con integraciones de inteligencia artificial, automatización de procesos y soluciones de seguridad diseñadas para trabajar juntas y darte ventaja competitiva.</p>
-              <ul className="width-6 flex-container gap-2 list-check">
-                <li>Inteligencia Artificial</li>
-                <li>Automatización de Procesos</li>
-                <li>Seguridad Avanzada</li>
-                <li>APIs e Integraciones</li>
-                <li>Chatbots y Asistentes</li>
-                <li>Monitoreo Continuo</li>
-              </ul>
-            </div>
-          </div>
-        </header>
+        <PageHeader
+          title="Integraciones Avanzadas"
+          description="Potencia tu negocio con integraciones de inteligencia artificial, automatización de procesos y soluciones de seguridad diseñadas para trabajar juntas y darte ventaja competitiva."
+          highlights={[
+            "Inteligencia Artificial",
+            "Automatización de Procesos",
+            "Seguridad Avanzada",
+            "APIs e Integraciones",
+            "Chatbots y Asistentes",
+            "Monitoreo Continuo",
+          ]}
+        />
         <section className="content">
           <div className="container">
             <div className="content-container">

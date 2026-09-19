@@ -1,4 +1,4 @@
-import Breadcrumb from "@/parts/components/Breadcrumb";
+import PageHeader from "@/parts/components/PageHeader";
 import HostingTypes from "@/parts/components/HostingTypes";
 import FeaturesHosting from "@/parts/components/FeaturesHosting";
 import ActionCardHosting from "@/parts/components/ActionCardHosting";
@@ -12,25 +12,18 @@ export default function PaginasWeb() {
   return (
     <main className="main main-hosting">
       <article>
-        <header className="page-header">
-          <div className="container">
-            <div className="page-header-container">
-              <Breadcrumb />
-              <h1 className="page-title">Creación de Sitios Web</h1>
-              <p className="width-6 font-size-medium">
-                Diseño y desarrollo de sitios web modernos, rápidos y adaptados a tu negocio. Desde una landing page hasta una tienda online completa, con código limpio y resultados reales.
-              </p>
-              <ul className="width-6 flex-container gap-2 list-check">
-                <li>Diseño Responsive</li>
-                <li>Landing Pages</li>
-                <li>Tiendas Online</li>
-                <li>Sitios Corporativos</li>
-                <li>Integración con CMS</li>
-                <li>SEO desde el Inicio</li>
-              </ul>
-            </div>
-          </div>
-        </header>
+        <PageHeader
+          title="Creación de Sitios Web"
+          description="Diseño y desarrollo de sitios web modernos, rápidos y adaptados a tu negocio. Desde una landing page hasta una tienda online completa, con código limpio y resultados reales."
+          highlights={[
+            "Diseño Responsive",
+            "Landing Pages",
+            "Tiendas Online",
+            "Sitios Corporativos",
+            "Integración con CMS",
+            "SEO desde el Inicio",
+          ]}
+        />
         <section className="content">
           <div className="container">
             <div className="content-container">
