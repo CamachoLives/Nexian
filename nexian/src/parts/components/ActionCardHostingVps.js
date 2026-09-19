@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ROUTES } from "@/config/routes";
 
 export default function ActionCardHosting() {
   return (
@@ -10,14 +11,14 @@ export default function ActionCardHosting() {
         </p>
         <div className="flex-container gap">
           {/* Añadimos una clase para ocultar en móvil */}
-          <Link className="button hide-mobile" href="/servicios/desarrollo-a-medida">
+          <Link className="button hide-mobile" href={ROUTES.softwareMedida}>
             Desarrollo a la Medida
           </Link>
-          <Link className="button hide-mobile" href="/servicios/seguridad-informatica">
+          <Link className="button hide-mobile" href={ROUTES.seguridad}>
             Seguridad y Mitigación
           </Link>
           {/* Este se mantiene siempre visible */}
-          <Link className="button" href="/contacto">
+          <Link className="button" href={ROUTES.contacto}>
             Hablemos de tu Proyecto
           </Link>
         </div>

@@ -1,23 +1,25 @@
+import { ROUTES } from "@/config/routes";
+
 export const HeaderNavData = [
   {
     label: "Servicios",
-    href: "/hosting",
+    href: ROUTES.servicios,
     children: [
-      { label: "Optimización en tu página", href: "/hosting/web-hosting" },
-      { label: "Creación de Sitios Web", href: "/hosting/reseller-hosting" },
-      { label: "Sofware a la Medida", href: "/hosting/wordpress-hosting" },
+      { label: "Optimización en tu página", href: ROUTES.optimizacion },
+      { label: "Creación de Sitios Web", href: ROUTES.paginasWeb },
+      { label: "Software a la Medida", href: ROUTES.softwareMedida },
     ],
   },
   {
     label: "Integraciones",
-    href: "/vps",
+    href: ROUTES.integraciones,
     children: [
-      { label: "IA", href: "/vps/kvm-vps" },
-      { label: "Seguridad", href: "/vps/managed-vps" },
-      { label: "Automatización", href: "/vps/storage-vps" },
+      { label: "IA", href: ROUTES.inteligenciaArtificial },
+      { label: "Seguridad", href: ROUTES.seguridad },
+      { label: "Automatización", href: ROUTES.automatizacion },
     ],
   },
-  { label: "Dedicado", href: "/dedicated" },
-  { label: "Soporte", href: "/support" },
-  { label: "Contacto", href: "/contact" },
+  { label: "Desarrollo", href: ROUTES.desarrollo },
+  { label: "Soporte", href: ROUTES.soporte },
+  { label: "Contacto", href: ROUTES.contacto },
 ];

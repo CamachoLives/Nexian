@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { ROUTES } from "@/config/routes";
 
 
 export default function Hero() {
@@ -17,7 +18,7 @@ export default function Hero() {
             <h1 className="hero-title-wave">Conectando el presente con el futuro</h1>
             <p className="font-size-medium">Transformamos código en soluciones de alto impacto. Elevamos tu rendimiento y garantizamos la integridad de tus datos con seguridad avanzada.</p>
             <div className="flex-container gap">
-              <Link className="button" href="/hosting/web-hosting">Comencemos a dar Soluciones!</Link>
+              <Link className="button" href={ROUTES.servicios}>Comencemos a dar Soluciones!</Link>
             </div>
           </div>
           <div className="hero-section hero-image-section">
