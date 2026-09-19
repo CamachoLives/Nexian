@@ -1,3 +1,23 @@
+## [Sin publicar]
+
+### Añadido
+- Proxy de Next 16 (`src/proxy.js`) con redirecciones 308 desde rutas antiguas y alias.
+- Configuración central: `src/config/site.js`, `routes.js` y `redirects.js`.
+- Cabeceras HTTP de seguridad, `sitemap.xml`, `robots.txt` y página 404 en español.
+- Metadata global con plantilla de título y Open Graph.
+- Componentes reutilizables `PageHeader` y `ActionCard`.
+
+### Cambiado
+- Rutas traducidas al español (`/servicios`, `/integraciones`, `/contacto`, `/nosotros`, etc.).
+- Página Sobre Nosotros y páginas legales traducidas y sin la marca Darki.
+- Breadcrumb con etiquetas legibles y microdatos completos.
+
+### Corregido
+- Enlaces rotos en navegación, footer y tarjetas de acción.
+- Botones placeholder sin destino en contacto y soporte.
+- Accesibilidad del acordeón y del menú móvil.
+- `allowedDevOrigins` fuera de `experimental` en `next.config.mjs`.
+
 ## [1.0.0] - 2026-03-18
 - Initial release of Darki hosting template
 

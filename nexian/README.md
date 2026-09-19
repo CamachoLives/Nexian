@@ -1,90 +1,69 @@
-# Darki – Free Dark Next.js Hosting Template
+# Nexian
 
-Darki is a modern, fast, and fully responsive web hosting template built with Next.js. It is designed for hosting companies, cloud providers, and technology businesses that want a clean and professional website layout.
+Sitio web de **Nexian Soluciones**: desarrollo de software a medida, integraciones con inteligencia artificial, automatización y ciberseguridad.
 
-The template features a sleek dark UI and includes common sections used by hosting providers such as hosting plans, services, FAQs, and call-to-action areas. Darki is built to be lightweight, easy to customize, and suitable for quickly launching a hosting website.
+Construido con [Next.js 16](https://nextjs.org/) (App Router) y React 19. Basado originalmente en la plantilla Darki de Dev5.dev.
 
-Built on top of Next.js, the template provides excellent performance, fast page loading, and a modern development experience.
+## Requisitos
 
----
+- Node.js 20.9 o superior
+- npm
 
-## Features
-
-- Modern dark themed design  
-- Built with Next.js  
-- Fully responsive layout  
-- Hosting focused sections (plans, services, FAQs)  
-- Clean and organized code structure  
-- Easy to customize and extend  
-
----
-
-## Demo
-https://darki.vercel.app/
-
-## Template Details:
-https://dev5.dev/theme/nextjs/darki
-
-## Documentation
-
-https://dev5.dev/doc/darki
-
----
-
-## Installation - Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/darki.git
-```
-
-### 2. Move into the project directory
-
-```bash
-cd darki
-```
-
-### 3. Install dependencies
+## Puesta en marcha
 
 ```bash
 npm install
+cp .env.example .env.local   # ajustar NEXT_PUBLIC_SITE_URL
+npm run dev                  # http://localhost:3000
 ```
 
-### 4. Start the development server
+| Script          | Descripción                          |
+| --------------- | ------------------------------------ |
+| `npm run dev`   | Servidor de desarrollo               |
+| `npm run build` | Build de producción                  |
+| `npm run start` | Sirve el build de producción         |
+| `npm run lint`  | Ejecuta ESLint                       |
 
-```bash
-npm run dev
+## Variables de entorno
+
+| Variable               | Uso                                                   |
+| ---------------------- | ----------------------------------------------------- |
+| `NEXT_PUBLIC_SITE_URL` | URL pública; se usa en metadata, sitemap y robots.txt |
+
+## Estructura
+
+```
+src/
+├── app/                 # Rutas (App Router), sitemap, robots y 404
+├── config/
+│   ├── site.js          # Nombre, URL, contacto y redes sociales
+│   ├── routes.js        # ROUTES y ROUTE_LABELS: fuente única de rutas
+│   └── redirects.js     # Mapa de redirecciones 308 usado por el proxy
+├── proxy.js             # Proxy de Next 16 (antes middleware)
+├── data/                # Contenido estático (navegación, planes, FAQs...)
+├── parts/               # Componentes: header, footer, secciones, planes
+├── css/                 # Hojas de estilo globales
+└── fonts/
 ```
 
-### 5. Open in your browser:
+## Rutas y proxy
 
-```
-http://localhost:3000
-```
+Todas las rutas internas se definen en `src/config/routes.js`. Los componentes y datos importan `ROUTES` en lugar de escribir URLs a mano, así un cambio de ruta se hace en un solo lugar.
 
----
+`src/proxy.js` redirige con **308** las rutas antiguas (p. ej. `/hosting/web-hosting` → `/servicios/optimizacion`) y alias en español hacia su ruta canónica. No distingue mayúsculas, ignora la barra final y conserva el query string.
 
-## Developed By
+### Añadir una página nueva
 
-Developed by **Dev5.dev team**
+1. Crear `src/app/<ruta>/page.js` usando `<PageHeader>`.
+2. Registrar la ruta en `ROUTES` y su etiqueta en `ROUTE_LABELS`.
+3. Si reemplaza una URL existente, añadir la antigua a `src/config/redirects.js`.
 
-Website: https://dev5.dev
+El sitemap y el breadcrumb se actualizan automáticamente.
 
----
+## Seguridad
 
-## License
+`next.config.mjs` añade cabeceras de seguridad a todas las respuestas (HSTS, `X-Frame-Options`, `X-Content-Type-Options`, `Referrer-Policy`, `Permissions-Policy`) y desactiva `X-Powered-By`.
 
-This template is released as a free theme. Please check the license file included in the repository for usage terms.
+## Créditos
 
----
-
-## WHMCS / HTML / WordPress / Drupal:
-If you want HTML / WordPress / Drupal version or WHMCS integration, please contact us.
-
----
-## Contact us:
-
-Please use below page to reach us in case you need any help.
-
-https://dev5.dev/contact
+Diseño base: plantilla [Darki](https://dev5.dev/theme/nextjs/darki) de [Dev5.dev](https://dev5.dev).
