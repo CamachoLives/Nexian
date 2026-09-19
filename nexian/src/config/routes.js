@@ -18,7 +18,7 @@ export const ROUTES = {
   contacto: "/contacto",
   nosotros: "/nosotros",
 
-  terminos: "/terms",
-  reembolso: "/refund",
-  privacidad: "/privacy",
+  terminos: "/terminos",
+  reembolso: "/reembolso",
+  privacidad: "/privacidad",
 };

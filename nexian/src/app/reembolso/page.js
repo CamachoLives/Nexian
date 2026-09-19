@@ -1,26 +1,26 @@
 import Breadcrumb from "@/parts/components/Breadcrumb";
 
 export const metadata = {
-  title: "Terms and Conditions | Darki Hosting",
-  description: "Read the Darki Hosting terms and conditions to understand the rules, policies, and guidelines for using our hosting services.",
+  title: "Política de Reembolso | Nexian",
+  description: "Conoce las condiciones de reembolso y facturación de los servicios de Nexian.",
 };
 
-export default function Terms(){
-  return(
+export default function Reembolso() {
+  return (
     <main className="main">
       <article>
         <header className="page-header">
           <div className="container">
             <div className="page-header-container">
-              <h1 className="page-title">Terms and Conditions</h1>
               <Breadcrumb />
+              <h1 className="page-title">Política de Reembolso</h1>
             </div>
           </div>
         </header>
         <section className="content">
           <div className="container">
             <div className="content-container">
-              <p>Page content</p>
+              <p>Contenido en preparación.</p>
             </div>
           </div>
         </section>

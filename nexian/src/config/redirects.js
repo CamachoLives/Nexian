@@ -16,6 +16,9 @@ export const REDIRECTS = {
   "/support": ROUTES.soporte,
   "/contact": ROUTES.contacto,
   "/about": ROUTES.nosotros,
+  "/terms": ROUTES.terminos,
+  "/refund": ROUTES.reembolso,
+  "/privacy": ROUTES.privacidad,
 
   // Alias en español que se usaron en enlaces antiguos del sitio.
   "/servicios/desarrollo-a-medida": ROUTES.softwareMedida,
