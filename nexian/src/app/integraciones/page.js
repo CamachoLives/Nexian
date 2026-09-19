@@ -9,7 +9,7 @@ export const metadata = {
   description: "Integra inteligencia artificial, automatiza procesos y refuerza la seguridad de tu negocio con soluciones tecnológicas avanzadas y personalizadas.",
 };
 
-export default function Vps(){
+export default function Integraciones(){
   return(
     <main className="main">
       <article>

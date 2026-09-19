@@ -8,10 +8,10 @@ export const ROUTES = {
   paginasWeb: "/servicios/paginas-web",
   softwareMedida: "/servicios/desarrollo-software",
 
-  integraciones: "/vps",
-  inteligenciaArtificial: "/vps/kvm-vps",
-  seguridad: "/vps/managed-vps",
-  automatizacion: "/vps/storage-vps",
+  integraciones: "/integraciones",
+  inteligenciaArtificial: "/integraciones/inteligencia-artificial",
+  seguridad: "/integraciones/seguridad",
+  automatizacion: "/integraciones/automatizacion",
 
   desarrollo: "/dedicated",
   soporte: "/support",

@@ -8,7 +8,7 @@ export const metadata = {
   description: "Integra modelos de inteligencia artificial en tu negocio para automatizar tareas, analizar datos y mejorar la experiencia de tus clientes.",
 };
 
-export default function KvmVps(){
+export default function InteligenciaArtificial(){
   return(
     <main className="main">
       <article>

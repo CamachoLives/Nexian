@@ -8,7 +8,7 @@ export const metadata = {
   description: "Automatiza tareas repetitivas, flujos de trabajo y procesos administrativos para ahorrar tiempo, reducir errores y escalar tu negocio.",
 };
 
-export default function StorageVps(){
+export default function Automatizacion(){
   return(
     <main className="main">
       <article>

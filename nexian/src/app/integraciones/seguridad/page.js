@@ -8,7 +8,7 @@ export const metadata = {
   description: "Auditorías de seguridad, detección de vulnerabilidades, protección contra malware y monitoreo continuo para mantener tu plataforma segura y blindada.",
 };
 
-export default function ManagedVps(){
+export default function Seguridad(){
   return(
     <main className="main">
       <article>

@@ -8,6 +8,10 @@ export const REDIRECTS = {
   "/hosting/web-hosting": ROUTES.optimizacion,
   "/hosting/reseller-hosting": ROUTES.paginasWeb,
   "/hosting/wordpress-hosting": ROUTES.softwareMedida,
+  "/vps": ROUTES.integraciones,
+  "/vps/kvm-vps": ROUTES.inteligenciaArtificial,
+  "/vps/managed-vps": ROUTES.seguridad,
+  "/vps/storage-vps": ROUTES.automatizacion,
 
   // Alias en español que se usaron en enlaces antiguos del sitio.
   "/servicios/desarrollo-a-medida": ROUTES.softwareMedida,
