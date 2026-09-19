@@ -22,3 +22,23 @@ export const ROUTES = {
   reembolso: "/reembolso",
   privacidad: "/privacidad",
 };
+
+// Etiquetas legibles por ruta, usadas en el breadcrumb y el sitemap.
+export const ROUTE_LABELS = {
+  [ROUTES.inicio]: "Inicio",
+  [ROUTES.servicios]: "Servicios",
+  [ROUTES.optimizacion]: "Optimización",
+  [ROUTES.paginasWeb]: "Páginas Web",
+  [ROUTES.softwareMedida]: "Software a la Medida",
+  [ROUTES.integraciones]: "Integraciones",
+  [ROUTES.inteligenciaArtificial]: "Inteligencia Artificial",
+  [ROUTES.seguridad]: "Seguridad",
+  [ROUTES.automatizacion]: "Automatización",
+  [ROUTES.desarrollo]: "Desarrollo",
+  [ROUTES.soporte]: "Soporte",
+  [ROUTES.contacto]: "Contacto",
+  [ROUTES.nosotros]: "Nosotros",
+  [ROUTES.terminos]: "Términos y Condiciones",
+  [ROUTES.reembolso]: "Política de Reembolso",
+  [ROUTES.privacidad]: "Política de Privacidad",
+};
