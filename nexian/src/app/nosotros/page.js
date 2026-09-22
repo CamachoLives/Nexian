@@ -33,7 +33,6 @@ const sections = [
   },
 ];
 
-
 export default function Nosotros() {
   return (
     <main className="main main-about">
