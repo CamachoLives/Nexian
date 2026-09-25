@@ -18,7 +18,7 @@ export default function DesarrolloSoftware() {
       <article>
         <PageHeader
           title="Software a la Medida"
-          description="Desarrollo aplicaciones y sistemas personalizados que se adaptan exactamente a los procesos de tu negocio, eliminando limitaciones de soluciones genéricas y ahorrándote tiempo y dinero."
+          description="Desarrollamos aplicaciones y sistemas personalizados que se adaptan exactamente a los procesos de tu negocio, eliminando limitaciones de soluciones genéricas y ahorrándote tiempo y dinero."
           highlights={[
             "Aplicaciones Web",
             "Sistemas de Gestión",

@@ -6,8 +6,8 @@ export const FaqServiciosData = [
   },
   {
     id: 2,
-    title: '¿Trabajas con clientes fuera de Colombia?',
-    content: 'Sí, trabajo con clientes de cualquier país. Me comunico por correo, WhatsApp o videollamada y acepto pagos internacionales.'
+    title: '¿Trabajan con clientes fuera de Colombia?',
+    content: 'Sí, trabajamos con clientes de cualquier país. Nos comunicamos por correo, WhatsApp o videollamada y aceptamos pagos internacionales.'
   },
   {
     id: 3,
@@ -17,16 +17,16 @@ export const FaqServiciosData = [
   {
     id: 4,
     title: '¿Necesito tener hosting o dominio propio?',
-    content: 'No es obligatorio. Puedo asesorarte en la elección del hosting y dominio más adecuado para tu proyecto, o trabajar con los que ya tengas contratados.'
+    content: 'No es obligatorio. Te asesoramos en la elección del hosting y el dominio más adecuados para tu proyecto, o trabajamos con los que ya tengas contratados.'
   },
   {
     id: 5,
-    title: '¿Qué métodos de pago aceptas?',
-    content: 'Acepto transferencias bancarias, Nequi, Daviplata y pagos internacionales por PayPal o transferencia. Generalmente se trabaja con un anticipo del 50% y el resto contra entrega.'
+    title: '¿Qué métodos de pago aceptan?',
+    content: 'Aceptamos transferencias bancarias, Nequi, Daviplata y pagos internacionales por PayPal o transferencia. Normalmente trabajamos con un anticipo del 50% y el resto contra entrega.'
   },
   {
     id: 6,
-    title: '¿Ofreces garantía sobre tu trabajo?',
-    content: 'Sí, ofrezco soporte post-entrega para corregir cualquier error o fallo relacionado con el desarrollo. Mi objetivo es que quedes completamente satisfecho con el resultado.'
+    title: '¿Ofrecen garantía sobre su trabajo?',
+    content: 'Sí, incluimos soporte post-entrega para corregir cualquier error o fallo relacionado con el desarrollo. Nuestro objetivo es que quedes completamente satisfecho con el resultado.'
   }
 ]

@@ -6,7 +6,7 @@ export default function ContactCards() {
     <section className="section">
       <h2 className="section-title">Hablemos</h2>
       <div className="section-small">
-        <p className="font-size-medium width-6">¿Tienes un proyecto o una duda? Contáctame por el canal que prefieras y te respondo a la brevedad.</p>
+        <p className="font-size-medium width-6">¿Tienes un proyecto o una duda? Contáctanos por el canal que prefieras y te respondemos a la brevedad.</p>
       </div>
       <div className="cards cards-contact">
         {ContactCardsData.map((item) => (

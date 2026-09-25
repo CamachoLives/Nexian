@@ -14,7 +14,7 @@ export const ContactSupportCardsData = [
     id: 2,
     title: 'Abrir Ticket de Soporte',
     icon: '/images/icons/support.svg',
-    content: '¿Tienes un problema o necesitas ayuda con tu proyecto? Abre un ticket y te responderé a la brevedad.',
+    content: '¿Tienes un problema o necesitas ayuda con tu proyecto? Abre un ticket y te respondemos a la brevedad.',
     url: `${siteConfig.contact.emailHref}?subject=${encodeURIComponent('Ticket de soporte')}`,
     buttonText: 'Abrir Ticket'
   },
@@ -22,7 +22,7 @@ export const ContactSupportCardsData = [
     id: 3,
     title: 'Contacto Directo',
     icon: '/images/icons/network.svg',
-    content: '¿Prefieres hablar directamente? Escríbeme por WhatsApp y conversamos sobre tu proyecto.',
+    content: '¿Prefieres hablar directamente? Escríbenos por WhatsApp y conversamos sobre tu proyecto.',
     url: siteConfig.contact.whatsapp,
     buttonText: 'Escribir por WhatsApp'
   }

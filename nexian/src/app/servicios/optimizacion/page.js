@@ -18,7 +18,7 @@ export default function Optimizacion() {
       <article>
         <PageHeader
           title="Optimización de Páginas Web"
-          description="Mejora la velocidad, el rendimiento y la experiencia de usuario de tu sitio web con técnicas avanzadas de optimización que se traducen en más visitas y más conversiones."
+          description="Mejoramos la velocidad, el rendimiento y la experiencia de usuario de tu sitio web con técnicas avanzadas de optimización que se traducen en más visitas y más conversiones."
           highlights={[
             "Optimización de Imágenes",
             "Configuración de Caché",

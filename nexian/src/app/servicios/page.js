@@ -18,7 +18,7 @@ export default function Servicios() {
       <article>
         <PageHeader
           title="Servicios Profesionales"
-          description="Ofrezco soluciones digitales completas para tu negocio: desde la creación de tu sitio web hasta la seguridad y optimización de tu plataforma, con código limpio y resultados medibles."
+          description="Ofrecemos soluciones digitales completas para tu negocio: desde la creación de tu sitio web hasta la seguridad y optimización de tu plataforma, con código limpio y resultados medibles."
           highlights={[
             "Creación de Sitios Web",
             "Software a la Medida",

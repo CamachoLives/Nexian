@@ -15,7 +15,7 @@ export default function Soporte(){
       <article>
         <PageHeader
           title="Centro de Soporte"
-          description="Explora guías de ayuda, abre tickets de soporte y consulta el estado de tus servicios para mantener tu proyecto web funcionando sin problemas."
+          description="Explora nuestros servicios, abre un ticket de soporte o escríbenos directamente para mantener tu proyecto web funcionando sin problemas."
         >
           <div className="flex-container gap-2">
             <Link className="button" href={ROUTES.contacto}>Contactar con Ventas</Link>

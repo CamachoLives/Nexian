@@ -7,7 +7,7 @@ import { siteConfig } from "@/config/site";
 
 export const metadata = {
   title: "Contacto | Desarrollo Web y Seguridad",
-  description: "Contáctame para hablar sobre tu proyecto web, consultar sobre servicios de desarrollo, seguridad u optimización. Estoy aquí para ayudarte.",
+  description: "Contáctanos para hablar sobre tu proyecto web o consultar sobre servicios de desarrollo, seguridad u optimización. Estamos aquí para ayudarte.",
 };
 
 export default function Contacto() {
@@ -15,8 +15,8 @@ export default function Contacto() {
     <main className="main">
       <article>
         <PageHeader
-          title="Contáctame"
-          description="¿Tienes un proyecto en mente o necesitas ayuda con tu sitio web? Cuéntame tu caso y encontramos juntos la mejor solución."
+          title="Contáctanos"
+          description="¿Tienes un proyecto en mente o necesitas ayuda con tu sitio web? Cuéntanos tu caso y encontramos juntos la mejor solución."
         >
           <div className="flex-container gap-2">
             <Link className="button" href={siteConfig.contact.whatsapp} target="_blank" rel="noopener noreferrer">Solicitar Presupuesto</Link>

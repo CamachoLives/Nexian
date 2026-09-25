@@ -7,7 +7,7 @@ export default function ContactSupportCards() {
     <section className="section section-contact-support-cards">
       <h2 className="section-title">¿Necesitas Ayuda con tu Proyecto?</h2>
       <div className="section-small">
-        <p className="font-size-medium width-6">Contáctame y recibe asesoramiento personalizado para tu sitio web, ya sea desarrollo, seguridad u optimización.</p>
+        <p className="font-size-medium width-6">Contáctanos y recibe asesoramiento personalizado para tu sitio web, ya sea desarrollo, seguridad u optimización.</p>
       </div>
       <div className="cards cards-contact">
         {ContactSupportCardsData.map((item) => (
