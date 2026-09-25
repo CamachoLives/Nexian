@@ -1,4 +1,4 @@
-export const PlansStorageVpsData = [
+export const PlanesAutomatizacionData = [
   {
     id: 1,
     name: 'Plan Automatización Básico',

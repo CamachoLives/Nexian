@@ -1,4 +1,4 @@
-export const PlansDedicatedData = [
+export const PlanesDesarrolloData = [
   {
     id: 1,
     name: 'Plan Básico',

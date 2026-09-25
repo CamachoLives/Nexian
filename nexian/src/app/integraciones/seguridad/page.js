@@ -1,5 +1,6 @@
 import PageHeader from "@/parts/components/PageHeader";
-import PlansManagedVps from "@/parts/plans/PlansManagedVps";
+import PricingPlans from "@/parts/sections/PricingPlans";
+import { PlanesSeguridadData } from "@/data/plans/PlanesSeguridadData";
 import FeaturesVps from "@/parts/components/FeaturesVps";
 import FaqVps from "@/parts/components/FaqVps";
 
@@ -27,7 +28,11 @@ export default function Seguridad(){
         <section className="content">
           <div className="container">
             <div className="content-container">
-              <PlansManagedVps />
+              <PricingPlans
+                title="Planes de Seguridad Web"
+                description="Elige el nivel de protección que necesita tu sitio web o plataforma digital."
+                plans={PlanesSeguridadData}
+              />
               <FeaturesVps />
               <FaqVps />
               <div className="spacer-3"></div>

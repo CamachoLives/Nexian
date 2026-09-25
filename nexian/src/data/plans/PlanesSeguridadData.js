@@ -1,4 +1,4 @@
-export const PlansManagedVpsData = [
+export const PlanesSeguridadData = [
   {
     id: 1,
     name: 'Plan Seguridad Básico',

@@ -1,5 +1,6 @@
 import PageHeader from "@/parts/components/PageHeader";
-import PlansStorageVps from "@/parts/plans/PlansStorageVps";
+import PricingPlans from "@/parts/sections/PricingPlans";
+import { PlanesAutomatizacionData } from "@/data/plans/PlanesAutomatizacionData";
 import FeaturesVps from "@/parts/components/FeaturesVps";
 import FaqVps from "@/parts/components/FaqVps";
 
@@ -27,7 +28,11 @@ export default function Automatizacion(){
         <section className="content">
           <div className="container">
             <div className="content-container">
-              <PlansStorageVps />
+              <PricingPlans
+                title="Planes de Automatización"
+                description="Automatiza los procesos de tu negocio con soluciones adaptadas a tu flujo de trabajo y presupuesto."
+                plans={PlanesAutomatizacionData}
+              />
               <FeaturesVps />
               <FaqVps />
               <div className="spacer-3"></div>

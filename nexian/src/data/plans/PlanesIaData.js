@@ -1,4 +1,4 @@
-export const PlansVpsData = [
+export const PlanesIaData = [
   {
     id: 1,
     name: 'Plan IA Básico',

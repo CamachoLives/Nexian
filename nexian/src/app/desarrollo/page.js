@@ -1,7 +1,8 @@
 import PageHeader from "@/parts/components/PageHeader";
 import FaqDedicated from "@/parts/components/FaqDedicated";
 import FeaturesDedicated from "@/parts/components/FeaturesDedicated";
-import PlansDedicated from "@/parts/plans/PlansDedicated";
+import PricingPlans from "@/parts/sections/PricingPlans";
+import { PlanesDesarrolloData } from "@/data/plans/PlanesDesarrolloData";
 
 export const metadata = {
   title: "Servicios de Desarrollo Web | Seguridad y Optimización",
@@ -25,7 +26,11 @@ export default function Desarrollo() {
         <section className="content">
           <div className="container">
             <div className="content-container">
-              <PlansDedicated />
+              <PricingPlans
+                title="Planes y Servicios"
+                description="Elige el plan que mejor se adapte a tu proyecto. Desde soluciones puntuales hasta desarrollo completo y mantenimiento continuo."
+                plans={PlanesDesarrolloData}
+              />
               <FeaturesDedicated />
               <FaqDedicated />
               <div className="spacer-3"></div>
