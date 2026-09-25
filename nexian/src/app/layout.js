@@ -46,8 +46,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es" className={manrope.variable}>
       <body>
+        <a className="skip-link" href="#contenido">Saltar al contenido</a>
         <Header />
-        {children}
+        <div id="contenido">{children}</div>
         <Footer />
       </body>
     </html>
