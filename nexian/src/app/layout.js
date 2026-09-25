@@ -13,6 +13,7 @@ import Header from "@/parts/header/Header";
 import Footer from "@/parts/footer/Footer";
 import { siteConfig } from "@/config/site";
 import localFont from "next/font/local";
+import StructuredData from "@/parts/seo/StructuredData";
 
 // Manrope autoalojada: Next la precarga y evita el parpadeo de fuente.
 const manrope = localFont({
@@ -42,6 +43,11 @@ export const metadata = {
   },
 };
 
+export const viewport = {
+  themeColor: "#121212",
+  colorScheme: "dark",
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="es" className={manrope.variable}>
@@ -50,6 +56,7 @@ export default function RootLayout({ children }) {
         <Header />
         <div id="contenido">{children}</div>
         <Footer />
+        <StructuredData />
       </body>
     </html>
   );
