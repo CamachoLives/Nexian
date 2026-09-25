@@ -1,5 +1,6 @@
 import { PlansVpsData } from "@/data/plans/PlansVpsData";
 import Link from "next/link";
+import { whatsappLink } from "@/config/site";
 
 export default function PlansVps() {
   return (
@@ -24,7 +25,14 @@ export default function PlansVps() {
                 ))}
               </ul>
             </div>
-            <Link className="button" href={plan.url}>Contratar</Link>
+            <Link
+              className="button"
+              href={whatsappLink(`Hola, me interesa el ${plan.name}.`)}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Contratar
+            </Link>
           </div>
         ))}
       </div>

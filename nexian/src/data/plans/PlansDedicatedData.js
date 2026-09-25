@@ -4,7 +4,6 @@ export const PlansDedicatedData = [
     name: 'Plan Básico',
     price: '$600.000',
     interval: 'proyecto',
-    url: '#',
     features: [
       "Landing page o sitio de hasta 5 páginas",
       "Diseño responsive (móvil y escritorio)",
@@ -19,7 +18,6 @@ export const PlansDedicatedData = [
     name: 'Plan Web Completo',
     price: '$1.500.000',
     interval: 'proyecto',
-    url: '#',
     features: [
       "Sitio web de hasta 15 páginas",
       "Diseño responsive personalizado",
@@ -34,7 +32,6 @@ export const PlansDedicatedData = [
     name: 'Tienda Online',
     price: '$2.500.000',
     interval: 'proyecto',
-    url: '#',
     features: [
       "E-commerce con WooCommerce o Prestashop",
       "Catálogo de productos ilimitado",
@@ -49,7 +46,6 @@ export const PlansDedicatedData = [
     name: 'Auditoría de Seguridad',
     price: '$500.000',
     interval: 'proyecto',
-    url: '#',
     features: [
       "Análisis completo de vulnerabilidades",
       "Detección de malware y accesos no autorizados",
@@ -64,7 +60,6 @@ export const PlansDedicatedData = [
     name: 'Optimización Web',
     price: '$350.000',
     interval: 'proyecto',
-    url: '#',
     features: [
       "Análisis de rendimiento actual",
       "Optimización de imágenes y recursos",
@@ -79,7 +74,6 @@ export const PlansDedicatedData = [
     name: 'Mantenimiento Mensual',
     price: '$250.000',
     interval: 'mes',
-    url: '#',
     features: [
       "Actualizaciones de CMS y plugins",
       "Copias de seguridad semanales",

@@ -19,3 +19,8 @@ export const siteConfig = {
     linkedin: "https://www.linkedin.com/in/cristiancamacho2004/",
   },
 };
+
+/** Enlace de WhatsApp con un mensaje inicial ya escrito. */
+export function whatsappLink(message) {
+  return `${siteConfig.contact.whatsapp}?text=${encodeURIComponent(message)}`;
+}

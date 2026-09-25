@@ -4,7 +4,6 @@ export const PlansManagedVpsData = [
     name: 'Plan Seguridad Básico',
     price: '$350.000',
     interval: 'proyecto',
-    url: '#',
     features: [
       "Análisis básico de vulnerabilidades",
       "Detección y eliminación de malware",
@@ -19,7 +18,6 @@ export const PlansManagedVpsData = [
     name: 'Plan Seguridad Avanzado',
     price: '$700.000',
     interval: 'proyecto',
-    url: '#',
     features: [
       "Auditoría completa de seguridad",
       "Detección y corrección de vulnerabilidades",
@@ -34,7 +32,6 @@ export const PlansManagedVpsData = [
     name: 'Plan Seguridad Continua',
     price: '$450.000',
     interval: 'mes',
-    url: '#',
     features: [
       "Monitoreo continuo de amenazas",
       "Actualizaciones de seguridad mensuales",

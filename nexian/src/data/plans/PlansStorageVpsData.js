@@ -4,7 +4,6 @@ export const PlansStorageVpsData = [
     name: 'Plan Automatización Básico',
     price: '$300.000',
     interval: 'proyecto',
-    url: '#',
     features: [
       "Automatización de hasta 3 procesos",
       "Integración entre 2 plataformas",
@@ -19,7 +18,6 @@ export const PlansStorageVpsData = [
     name: 'Plan Automatización Profesional',
     price: '$650.000',
     interval: 'proyecto',
-    url: '#',
     features: [
       "Automatización de hasta 8 procesos",
       "Integración entre múltiples plataformas",
@@ -34,7 +32,6 @@ export const PlansStorageVpsData = [
     name: 'Plan Automatización Empresarial',
     price: '$1.200.000',
     interval: 'proyecto',
-    url: '#',
     features: [
       "Automatización completa de procesos clave",
       "Integración con CRM, ERP u otras herramientas",

@@ -1,5 +1,6 @@
 import { PlansDedicatedData } from "@/data/plans/PlansDedicatedData";
 import Link from "next/link";
+import { whatsappLink } from "@/config/site";
 
 export default function PlansDedicated() {
   return (
@@ -24,7 +25,14 @@ export default function PlansDedicated() {
                 ))}
               </ul>
             </div>
-            <Link className="button" href={plan.url}>Contratar</Link>
+            <Link
+              className="button"
+              href={whatsappLink(`Hola, me interesa el ${plan.name}.`)}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Contratar
+            </Link>
           </div>
         ))}
       </div>

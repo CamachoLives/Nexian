@@ -4,7 +4,6 @@ export const PlansVpsData = [
     name: 'Plan IA Básico',
     price: '$400.000',
     interval: 'proyecto',
-    url: '#',
     features: [
       "Integración de chatbot básico",
       "Conexión con API de IA (OpenAI, Gemini, etc.)",
@@ -19,7 +18,6 @@ export const PlansVpsData = [
     name: 'Plan IA Profesional',
     price: '$900.000',
     interval: 'proyecto',
-    url: '#',
     features: [
       "Chatbot avanzado con contexto y memoria",
       "Integración con base de datos propia",
@@ -34,7 +32,6 @@ export const PlansVpsData = [
     name: 'Plan IA Empresarial',
     price: '$2.000.000',
     interval: 'proyecto',
-    url: '#',
     features: [
       "Modelo de IA personalizado para tu negocio",
       "Automatización completa de procesos con IA",
