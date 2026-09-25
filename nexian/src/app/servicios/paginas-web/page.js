@@ -4,6 +4,8 @@ import { TiposServiciosData } from "@/data/components/TiposServiciosData";
 import FeatureCards from "@/parts/sections/FeatureCards";
 import { FeaturesServiciosData } from "@/data/components/FeaturesServiciosData";
 import ActionCard from "@/parts/components/ActionCard";
+import FaqSection from "@/parts/sections/FaqSection";
+import { FaqServiciosData } from "@/data/components/FaqServiciosData";
 
 export const metadata = {
   title: "Creación de Sitios Web | Desarrollo Profesional",
@@ -38,6 +40,10 @@ export default function PaginasWeb() {
                 title="¿Por Qué Elegir Nexian?"
                 description="Desarrollo web profesional, seguridad aplicada y optimización real para que tu proyecto funcione rápido, seguro y sin problemas."
                 features={FeaturesServiciosData}
+              />
+              <FaqSection
+                description="Plazos, formas de trabajo, cambios y soporte: esto es lo que más nos preguntan antes de empezar un proyecto."
+                items={FaqServiciosData}
               />
               <ActionCard />
               <div className="spacer-3"></div>
