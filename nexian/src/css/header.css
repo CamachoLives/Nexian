@@ -114,6 +114,11 @@
   color: transparent;
   background-size: 100% 100%;
 }
+/* Página actual y sección que la contiene */
+.main-menu-link[aria-current="page"],
+.main-menu-link[aria-current="true"] {
+  color: var(--color-secondary-light);
+}
 .sub-menu {
   position: absolute;
   top: 100%;

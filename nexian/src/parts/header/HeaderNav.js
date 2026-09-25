@@ -3,9 +3,19 @@
 import { HeaderNavData } from "@/data/header/HeaderNavData";
 import { useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { ROUTES } from "@/config/routes";
 
 export default function HeaderNav() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
+
+  // "page" en la página exacta y "true" en la sección que la contiene.
+  const currentState = (href) => {
+    if (pathname === href) return "page";
+    if (href !== ROUTES.inicio && pathname.startsWith(`${href}/`)) return "true";
+    return undefined;
+  };
 
   return (
     <div className="main-nav-container">
@@ -32,6 +42,7 @@ export default function HeaderNav() {
                   <Link
                     className="main-menu-link level-1-link"
                     aria-haspopup="true"
+                    aria-current={currentState(item.href)}
                     href={item.href}
                     onClick={() => setMenuOpen(false)}
                   >
@@ -41,7 +52,12 @@ export default function HeaderNav() {
                   <ul className="sub-menu">
                     {item.children.map((child) => (
                       <li key={child.label} className="sub-menu-item">
-                        <Link href={child.href} className="main-menu-link sub-menu-link" onClick={() => setMenuOpen(false)}>
+                        <Link
+                          href={child.href}
+                          className="main-menu-link sub-menu-link"
+                          aria-current={currentState(child.href)}
+                          onClick={() => setMenuOpen(false)}
+                        >
                           {child.label}
                         </Link>
                       </li>
@@ -49,7 +65,12 @@ export default function HeaderNav() {
                   </ul>
                 </>
               ) : (
-                <Link href={item.href} className="main-menu-link level-1-link" onClick={() => setMenuOpen(false)}>
+                <Link
+                  href={item.href}
+                  className="main-menu-link level-1-link"
+                  aria-current={currentState(item.href)}
+                  onClick={() => setMenuOpen(false)}
+                >
                   {item.label}
                 </Link>
               )}
