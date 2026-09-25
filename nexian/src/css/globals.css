@@ -13,24 +13,8 @@
   --font-weight-normal: 400;
   --font-weight-bold: 600;
   --font-mono: ui-monospace, "Cascadia Code", "Source Code Pro", monospace;
-  --font-text: "poppins";
-  --font-heading: "poppins", sans-serif;
-}
-/* manrope-regular - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/manrope-regular.woff2') format('woff2');
-}
-/* manrope-600 - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'poppins';
-  font-style: normal;
-  font-weight: 600;
-  src: url('../fonts/manrope-bold.woff2') format('woff2');
+  --font-text: var(--font-manrope), sans-serif;
+  --font-heading: var(--font-manrope), sans-serif;
 }
 html {
   color-scheme: dark;

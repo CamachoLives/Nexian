@@ -12,6 +12,18 @@ import "@/css/responsive.css";
 import Header from "@/parts/header/Header";
 import Footer from "@/parts/footer/Footer";
 import { siteConfig } from "@/config/site";
+import localFont from "next/font/local";
+
+// Manrope autoalojada: Next la precarga y evita el parpadeo de fuente.
+const manrope = localFont({
+  src: [
+    { path: "../fonts/manrope-regular.woff2", weight: "400", style: "normal" },
+    { path: "../fonts/manrope-bold.woff2", weight: "600", style: "normal" },
+  ],
+  variable: "--font-manrope",
+  display: "swap",
+  fallback: ["-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "sans-serif"],
+});
 
 export const metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -32,7 +44,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es">
+    <html lang="es" className={manrope.variable}>
       <body>
         <Header />
         {children}
