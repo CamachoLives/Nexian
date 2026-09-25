@@ -1,6 +1,7 @@
 import PageHeader from "@/parts/components/PageHeader";
 import HostingTypes from "@/parts/components/HostingTypes";
-import FeaturesHosting from "@/parts/components/FeaturesHosting";
+import FeatureCards from "@/parts/sections/FeatureCards";
+import { FeaturesServiciosData } from "@/data/components/FeaturesServiciosData";
 import ActionCard from "@/parts/components/ActionCard";
 
 export const metadata = {
@@ -28,7 +29,11 @@ export default function Optimizacion() {
           <div className="container">
             <div className="content-container">
               <HostingTypes />
-              <FeaturesHosting />
+              <FeatureCards
+                title="¿Por Qué Elegir Nexian?"
+                description="Desarrollo web profesional, seguridad aplicada y optimización real para que tu proyecto funcione rápido, seguro y sin problemas."
+                features={FeaturesServiciosData}
+              />
               <ActionCard />
               <div className="spacer-3"></div>
             </div>

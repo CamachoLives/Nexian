@@ -1,6 +1,7 @@
 import PageHeader from "@/parts/components/PageHeader";
 import FaqDedicated from "@/parts/components/FaqDedicated";
-import FeaturesDedicated from "@/parts/components/FeaturesDedicated";
+import FeatureCards from "@/parts/sections/FeatureCards";
+import { FeaturesDesarrolloData } from "@/data/components/FeaturesDesarrolloData";
 import PricingPlans from "@/parts/sections/PricingPlans";
 import { PlanesDesarrolloData } from "@/data/plans/PlanesDesarrolloData";
 
@@ -30,8 +31,14 @@ export default function Desarrollo() {
                 title="Planes y Servicios"
                 description="Elige el plan que mejor se adapte a tu proyecto. Desde soluciones puntuales hasta desarrollo completo y mantenimiento continuo."
                 plans={PlanesDesarrolloData}
+                width={6}
               />
-              <FeaturesDedicated />
+              <FeatureCards
+                title="¿Por Qué Trabajar Con Nosotros?"
+                description="Desarrollo web de calidad, seguridad aplicada y optimización real para que tu proyecto funcione de forma rápida, segura y profesional."
+                features={FeaturesDesarrolloData}
+                width={6}
+              />
               <FaqDedicated />
               <div className="spacer-3"></div>
             </div>

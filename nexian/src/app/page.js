@@ -1,6 +1,7 @@
 import Hero from "@/parts/main/Hero";
 import HostingServices from "@/parts/components/HostingServices";
-import Features from "@/parts/components/Features";
+import FeatureCards from "@/parts/sections/FeatureCards";
+import { FeaturesInicioData } from "@/data/components/FeaturesInicioData";
 import Testimonial from "@/parts/components/Testimonial";
 import ActionCard from "@/parts/components/ActionCard";
 import { siteConfig } from "@/config/site";
@@ -18,7 +19,11 @@ export default function Home() {
         <div className="container">
           <div className="content-container">
             <HostingServices />
-            <Features />
+            <FeatureCards
+              title="¿Por qué elegir Nexian?"
+              description="Nexian ofrece soluciones rápidas de forma segura y confiable diseñado para impulsar sitios web modernos y negocios en línea en crecimiento."
+              features={FeaturesInicioData}
+            />
             <Testimonial />
             <ActionCard compactOnMobile />
             <div className="spacer-3"></div>

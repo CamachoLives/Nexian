@@ -1,7 +1,8 @@
 import PageHeader from "@/parts/components/PageHeader";
 import PricingPlans from "@/parts/sections/PricingPlans";
 import { PlanesSeguridadData } from "@/data/plans/PlanesSeguridadData";
-import FeaturesVps from "@/parts/components/FeaturesVps";
+import FeatureCards from "@/parts/sections/FeatureCards";
+import { FeaturesIntegracionesData } from "@/data/components/FeaturesIntegracionesData";
 import FaqVps from "@/parts/components/FaqVps";
 
 export const metadata = {
@@ -33,7 +34,12 @@ export default function Seguridad(){
                 description="Elige el nivel de protección que necesita tu sitio web o plataforma digital."
                 plans={PlanesSeguridadData}
               />
-              <FeaturesVps />
+              <FeatureCards
+                title="¿Por Qué Integrar Estas Soluciones?"
+                description="La IA, la automatización y la seguridad no son el futuro, son el presente. Integrarlas en tu negocio hoy marca la diferencia frente a tu competencia."
+                features={FeaturesIntegracionesData}
+                width={6}
+              />
               <FaqVps />
               <div className="spacer-3"></div>
             </div>

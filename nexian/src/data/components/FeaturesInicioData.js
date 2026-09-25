@@ -1,4 +1,4 @@
-export const FeaturesData = [
+export const FeaturesInicioData = [
   {
     id: 1,
     title: 'Automatización e IA',

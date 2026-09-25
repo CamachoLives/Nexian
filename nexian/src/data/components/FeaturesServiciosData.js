@@ -1,4 +1,4 @@
-export const FeaturesHostingData = [
+export const FeaturesServiciosData = [
   {
     id: 1,
     title: 'Desarrollo Web Moderno',

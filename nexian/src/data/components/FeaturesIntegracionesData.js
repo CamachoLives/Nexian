@@ -1,4 +1,4 @@
-export const FeaturesVpsData = [
+export const FeaturesIntegracionesData = [
   {
     id: 1,
     title: 'Modelos de IA Personalizados',

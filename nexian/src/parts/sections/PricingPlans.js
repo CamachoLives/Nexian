@@ -6,13 +6,14 @@ import { whatsappLink } from "@/config/site";
  * @param {string} title Título de la sección.
  * @param {string} description Texto introductorio.
  * @param {Array} plans Planes a mostrar: { id, name, price, interval, features }.
+ * @param {number} width Ancho del texto introductorio (clase width-N).
  */
-export default function PricingPlans({ title, description, plans }) {
+export default function PricingPlans({ title, description, plans, width = 5 }) {
   return (
     <section className="section section-pricing-hosting">
       <h2 className="section-title">{title}</h2>
       <div className="section-small">
-        <p className="font-size-medium width-5">{description}</p>
+        <p className={`font-size-medium width-${width}`}>{description}</p>
       </div>
       <div className="cards cards-pricing cards-pricing-hosting">
         {plans.map((plan) => (

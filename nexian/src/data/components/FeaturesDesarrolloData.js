@@ -1,4 +1,4 @@
-export const FeaturesDedicatedData = [
+export const FeaturesDesarrolloData = [
   {
     id: 1,
     title: 'Seguridad Web',
