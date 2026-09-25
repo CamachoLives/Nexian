@@ -1,0 +1,12 @@
+# Normalizar los finales de línea: LF en el repositorio y en el árbol de trabajo.
+* text=auto eol=lf
+
+# Archivos binarios: nunca convertir.
+*.woff2 binary
+*.woff  binary
+*.ico   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.webp  binary
+*.zip   binary
