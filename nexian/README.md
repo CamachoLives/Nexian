@@ -41,10 +41,30 @@ src/
 │   └── redirects.js     # Mapa de redirecciones 308 usado por el proxy
 ├── proxy.js             # Proxy de Next 16 (antes middleware)
 ├── data/                # Contenido estático (navegación, planes, FAQs...)
-├── parts/               # Componentes: header, footer, secciones, planes
+├── parts/
+│   ├── sections/        # Secciones reutilizables por contenido (props)
+│   ├── components/      # Piezas de interfaz (PageHeader, ActionCard...)
+│   ├── header/ footer/  # Cabecera y pie del sitio
+│   └── seo/             # Datos estructurados JSON-LD
 ├── css/                 # Hojas de estilo globales
-└── fonts/
+└── fonts/               # Manrope, cargada con next/font/local
 ```
+
+## Secciones reutilizables
+
+Las páginas se componen de secciones que reciben su contenido por props, en lugar de duplicar marcado:
+
+| Componente      | Uso                                                |
+| --------------- | -------------------------------------------------- |
+| `PageHeader`    | Breadcrumb, título, descripción y puntos clave     |
+| `ServiceCards`  | Tarjetas de servicio con enlace a su página        |
+| `ServicesGrid`  | Resumen de servicios sin enlace (inicio)           |
+| `FeatureCards`  | Cuadrícula de características con icono            |
+| `PricingPlans`  | Planes con precio, características y CTA a WhatsApp |
+| `FaqSection`    | Preguntas frecuentes en acordeón                   |
+| `ActionCard`    | Llamado a la acción de cierre de página            |
+
+El contenido vive en `src/data/`, nunca dentro de los componentes.
 
 ## Rutas y proxy
 
@@ -60,9 +80,25 @@ Todas las rutas internas se definen en `src/config/routes.js`. Los componentes y
 
 El sitemap y el breadcrumb se actualizan automáticamente.
 
+## Calidad
+
+`.github/workflows/ci.yml` ejecuta ESLint y el build de producción en cada push y pull request a `main`. En local:
+
+```bash
+npm run lint && npm run build
+```
+
+`.gitattributes` y `.editorconfig` mantienen LF, UTF-8 y 2 espacios de indentación.
+
 ## Seguridad
 
 `next.config.mjs` añade cabeceras de seguridad a todas las respuestas (HSTS, `X-Frame-Options`, `X-Content-Type-Options`, `Referrer-Policy`, `Permissions-Policy`) y desactiva `X-Powered-By`.
+
+## Accesibilidad y SEO
+
+- Enlace "Saltar al contenido", estilos `:focus-visible` y soporte de `prefers-reduced-motion`
+- El menú marca la página actual con `aria-current`
+- Metadata con plantilla de título y Open Graph, `sitemap.xml`, `robots.txt` y JSON-LD (`Organization` y `WebSite`)
 
 ## Créditos
 
