@@ -1,6 +1,6 @@
 import { ROUTES } from "@/config/routes";
 
-export const HostingTypesData = [
+export const TiposServiciosData = [
   {
     id: 1,
     title: 'Desarrollo Web',

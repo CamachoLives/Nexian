@@ -1,5 +1,6 @@
 import PageHeader from "@/parts/components/PageHeader";
-import VpsTypes from "@/parts/components/VpsTypes";
+import ServiceCards from "@/parts/sections/ServiceCards";
+import { TiposIntegracionesData } from "@/data/components/TiposIntegracionesData";
 import FeatureCards from "@/parts/sections/FeatureCards";
 import { FeaturesIntegracionesData } from "@/data/components/FeaturesIntegracionesData";
 import Testimonial from "@/parts/components/Testimonial";
@@ -29,7 +30,11 @@ export default function Integraciones(){
         <section className="content">
           <div className="container">
             <div className="content-container">
-              <VpsTypes />
+              <ServiceCards
+                title="Integraciones para tu Negocio"
+                description="Soluciones de IA, automatización y seguridad diseñadas para optimizar y proteger tu negocio."
+                items={TiposIntegracionesData}
+              />
               <FeatureCards
                 title="¿Por Qué Integrar Estas Soluciones?"
                 description="La IA, la automatización y la seguridad no son el futuro, son el presente. Integrarlas en tu negocio hoy marca la diferencia frente a tu competencia."

@@ -1,6 +1,6 @@
 import { ROUTES } from "@/config/routes";
 
-export const VpsTypesData = [
+export const TiposIntegracionesData = [
   {
     id: 1,
     title: 'Inteligencia Artificial',

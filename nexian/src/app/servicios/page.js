@@ -1,5 +1,6 @@
 import PageHeader from "@/parts/components/PageHeader";
-import HostingTypes from "@/parts/components/HostingTypes";
+import ServiceCards from "@/parts/sections/ServiceCards";
+import { TiposServiciosData } from "@/data/components/TiposServiciosData";
 import FeatureCards from "@/parts/sections/FeatureCards";
 import { FeaturesServiciosData } from "@/data/components/FeaturesServiciosData";
 import ActionCard from "@/parts/components/ActionCard";
@@ -28,7 +29,11 @@ export default function Servicios() {
         <section className="content">
           <div className="container">
             <div className="content-container">
-              <HostingTypes />
+              <ServiceCards
+                title="Servicios Profesionales de Desarrollo"
+                description="Desarrollo web, seguridad y optimización para llevar tu proyecto al siguiente nivel."
+                items={TiposServiciosData}
+              />
               <FeatureCards
                 title="¿Por Qué Elegir Nexian?"
                 description="Desarrollo web profesional, seguridad aplicada y optimización real para que tu proyecto funcione rápido, seguro y sin problemas."
