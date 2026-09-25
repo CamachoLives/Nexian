@@ -1,5 +1,6 @@
 import PageHeader from "@/parts/components/PageHeader";
-import FaqDedicated from "@/parts/components/FaqDedicated";
+import FaqSection from "@/parts/sections/FaqSection";
+import { FaqDesarrolloData } from "@/data/components/FaqDesarrolloData";
 import FeatureCards from "@/parts/sections/FeatureCards";
 import { FeaturesDesarrolloData } from "@/data/components/FeaturesDesarrolloData";
 import PricingPlans from "@/parts/sections/PricingPlans";
@@ -39,7 +40,10 @@ export default function Desarrollo() {
                 features={FeaturesDesarrolloData}
                 width={6}
               />
-              <FaqDedicated />
+              <FaqSection
+                description="Encuentra respuestas rápidas a las preguntas más comunes sobre nuestros servicios de desarrollo, seguridad y optimización web."
+                items={FaqDesarrolloData}
+              />
               <div className="spacer-3"></div>
             </div>
           </div>

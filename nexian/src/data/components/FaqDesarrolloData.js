@@ -1,4 +1,4 @@
-export const FaqDedicatedData = [
+export const FaqDesarrolloData = [
   {
     id: 1,
     title: '¿Qué tipos de proyectos desarrollas?',

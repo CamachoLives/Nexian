@@ -1,4 +1,4 @@
-export const FaqHostingData = [
+export const FaqServiciosData = [
   {
     id: 1,
     title: '¿Cuánto tiempo tarda en estar listo mi proyecto?',

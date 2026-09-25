@@ -3,7 +3,8 @@ import PricingPlans from "@/parts/sections/PricingPlans";
 import { PlanesSeguridadData } from "@/data/plans/PlanesSeguridadData";
 import FeatureCards from "@/parts/sections/FeatureCards";
 import { FeaturesIntegracionesData } from "@/data/components/FeaturesIntegracionesData";
-import FaqVps from "@/parts/components/FaqVps";
+import FaqSection from "@/parts/sections/FaqSection";
+import { FaqIntegracionesData } from "@/data/components/FaqIntegracionesData";
 
 export const metadata = {
   title: "Seguridad Web | Auditorías y Protección Avanzada",
@@ -40,7 +41,10 @@ export default function Seguridad(){
                 features={FeaturesIntegracionesData}
                 width={6}
               />
-              <FaqVps />
+              <FaqSection
+                description="Resuelve tus dudas sobre integraciones de inteligencia artificial, automatización de procesos y seguridad."
+                items={FaqIntegracionesData}
+              />
               <div className="spacer-3"></div>
             </div>
           </div>
