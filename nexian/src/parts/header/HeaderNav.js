@@ -1,7 +1,7 @@
 "use client";
 
 import { HeaderNavData } from "@/data/header/HeaderNavData";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ROUTES } from "@/config/routes";
@@ -9,6 +9,33 @@ import { ROUTES } from "@/config/routes";
 export default function HeaderNav() {
   const [menuOpen, setMenuOpen] = useState(false);
   const pathname = usePathname();
+  const [lastPathname, setLastPathname] = useState(pathname);
+
+  // Cerrar al navegar cubre también el botón "atrás" del navegador, que no
+  // dispara el onClick de los enlaces. Se ajusta durante el render en lugar
+  // de con un efecto, que sería un repintado de más.
+  if (lastPathname !== pathname) {
+    setLastPathname(pathname);
+    setMenuOpen(false);
+  }
+
+  // Con el menú abierto: Escape lo cierra y el fondo no se desplaza.
+  useEffect(() => {
+    if (!menuOpen) return;
+
+    const onKeyDown = (event) => {
+      if (event.key === "Escape") setMenuOpen(false);
+    };
+
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    document.addEventListener("keydown", onKeyDown);
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      document.removeEventListener("keydown", onKeyDown);
+    };
+  }, [menuOpen]);
 
   // "page" en la página exacta y "true" en la sección que la contiene.
   const currentState = (href) => {
