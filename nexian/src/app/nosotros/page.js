@@ -16,6 +16,7 @@ const sections = [
       "Desde una landing page hasta sistemas de gestión completos, entregamos soluciones rápidas, seguras y fáciles de mantener.",
     ],
   },
+  
   {
     title: "Nuestra Misión",
     subtitle: "Impulsar tu negocio con tecnología confiable",
