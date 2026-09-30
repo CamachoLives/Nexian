@@ -1,7 +1,8 @@
 import HeaderNav from "@/parts/header/HeaderNav";
 import Link from "next/link";
-import Image from "next/image";
+import Logo from "@/parts/components/Logo";
 import { siteConfig } from "@/config/site";
+import { ROUTES } from "@/config/routes";
 
 export default function Header() {
   return (
@@ -9,14 +10,8 @@ export default function Header() {
       <div className="container">
         <div className="header-container">
           <div className="site-brand">
-            <Link href="/">
-              <Image className="logo"
-                src="/images/svg.svg"
-                alt={`${siteConfig.name} - Inicio`}
-                height={30}
-                width={0}
-                priority
-              />
+            <Link href={ROUTES.inicio}>
+              <Logo alt={`${siteConfig.name} - Inicio`} priority />
             </Link>
           </div>
           <div className="header-right">
