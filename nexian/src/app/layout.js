@@ -41,6 +41,9 @@ export const metadata = {
     siteName: siteConfig.name,
     url: siteConfig.url,
   },
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export const viewport = {
