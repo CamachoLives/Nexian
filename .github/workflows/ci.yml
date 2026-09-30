@@ -12,14 +12,14 @@ defaults:
 
 jobs:
   verify:
-    name: Lint y build
+    name: Lint, pruebas y build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
           cache-dependency-path: nexian/package-lock.json
 
@@ -28,6 +28,9 @@ jobs:
 
       - name: ESLint
         run: npm run lint
+
+      - name: Pruebas
+        run: npm test
 
       - name: Build de producción
         run: npm run build

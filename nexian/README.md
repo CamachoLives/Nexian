@@ -6,7 +6,7 @@ Construido con [Next.js 16](https://nextjs.org/) (App Router) y React 19. Basado
 
 ## Requisitos
 
-- Node.js 20.9 o superior
+- Node.js 22.15 o superior (las pruebas usan `module.registerHooks`)
 - npm
 
 ## Puesta en marcha
@@ -23,6 +23,7 @@ npm run dev                  # http://localhost:3000
 | `npm run build` | Build de producción                  |
 | `npm run start` | Sirve el build de producción         |
 | `npm run lint`  | Ejecuta ESLint                       |
+| `npm test`      | Pruebas de rutas y redirecciones     |
 
 ## Variables de entorno
 
@@ -45,10 +46,16 @@ src/
 │   ├── sections/        # Secciones reutilizables por contenido (props)
 │   ├── components/      # Piezas de interfaz (PageHeader, ActionCard...)
 │   ├── header/ footer/  # Cabecera y pie del sitio
-│   └── seo/             # Datos estructurados JSON-LD
+│   └── seo/             # JSON-LD y la tarjeta social generada con next/og
 ├── css/                 # Hojas de estilo globales
 └── fonts/               # Manrope, cargada con next/font/local
+
+tests/                   # Pruebas con node:test (sin dependencias)
 ```
+
+`src/app` incluye, además de las páginas: `sitemap.js`, `robots.js`,
+`manifest.js`, `opengraph-image.js`, `twitter-image.js`, `apple-icon.js`,
+`not-found.js`, `error.js` y `global-error.js`.
 
 ## Secciones reutilizables
 
@@ -82,23 +89,32 @@ El sitemap y el breadcrumb se actualizan automáticamente.
 
 ## Calidad
 
-`.github/workflows/ci.yml` ejecuta ESLint y el build de producción en cada push y pull request a `main`. En local:
+`.github/workflows/ci.yml` ejecuta ESLint, las pruebas y el build de producción en cada push y pull request a `main`. En local:
 
 ```bash
-npm run lint && npm run build
+npm run lint && npm test && npm run build
 ```
+
+`npm test` usa `node:test`, sin dependencias, y comprueba que `ROUTES`,
+`ROUTE_LABELS`, `REDIRECTS` y los `page.js` de `src/app` no se desincronicen:
+toda ruta tiene etiqueta y página, toda página está registrada, y ninguna
+redirección apunta a una ruta inexistente ni encadena con otra.
 
 `.gitattributes` y `.editorconfig` mantienen LF, UTF-8 y 2 espacios de indentación.
 
 ## Seguridad
 
-`next.config.mjs` añade cabeceras de seguridad a todas las respuestas (HSTS, `X-Frame-Options`, `X-Content-Type-Options`, `Referrer-Policy`, `Permissions-Policy`) y desactiva `X-Powered-By`.
+`next.config.mjs` añade cabeceras de seguridad a todas las respuestas (HSTS, `X-Frame-Options`, `X-Content-Type-Options`, `Referrer-Policy`, `Permissions-Policy`, `Cross-Origin-Opener-Policy`, `Cross-Origin-Resource-Policy`, `X-Permitted-Cross-Domain-Policies`) y desactiva `X-Powered-By`.
+
+Las rutas `opengraph-image` y `twitter-image` se declaran `cross-origin`, porque son las que otros dominios tienen que poder mostrar. Las imágenes de `public/images` se cachean un día con una semana de `stale-while-revalidate`.
 
 ## Accesibilidad y SEO
 
-- Enlace "Saltar al contenido", estilos `:focus-visible` y soporte de `prefers-reduced-motion`
-- El menú marca la página actual con `aria-current`
-- Metadata con plantilla de título y Open Graph, `sitemap.xml`, `robots.txt` y JSON-LD (`Organization` y `WebSite`)
+- Enlace "Saltar al contenido", estilos `:focus-visible` y un único bloque de `prefers-reduced-motion` (en `base.css`; el marquee declara su excepción)
+- El menú marca la página actual con `aria-current`, se cierra con Escape y al cambiar de ruta, y cerrado no deja enlaces tabulables
+- Los paneles cerrados del acordeón son `inert`: fuera del foco y del lector de pantalla
+- Metadata con plantilla de título y Open Graph, `sitemap.xml` con prioridades por sección, `robots.txt`, manifest web y JSON-LD (`Organization`, `WebSite` y `FAQPage`)
+- Tarjeta social 1200x630 generada con `next/og`, compartida por Open Graph y Twitter
 
 ## Créditos
 
