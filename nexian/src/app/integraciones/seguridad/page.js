@@ -7,7 +7,7 @@ import FaqSection from "@/parts/sections/FaqSection";
 import { FaqIntegracionesData } from "@/data/components/FaqIntegracionesData";
 
 export const metadata = {
-  title: "Seguridad Web | Auditorías y Protección Avanzada",
+  title: "Seguridad Web y Auditorías",
   description: "Auditorías de seguridad, detección de vulnerabilidades, protección contra malware y monitoreo continuo para mantener tu plataforma segura y blindada.",
 };
 

@@ -6,7 +6,7 @@ import { ROUTES } from "@/config/routes";
 import { siteConfig } from "@/config/site";
 
 export const metadata = {
-  title: "Contacto | Desarrollo Web y Seguridad",
+  title: "Contacto",
   description: "Contáctanos para hablar sobre tu proyecto web o consultar sobre servicios de desarrollo, seguridad u optimización. Estamos aquí para ayudarte.",
 };
 

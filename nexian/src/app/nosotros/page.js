@@ -3,7 +3,7 @@ import ActionCard from "@/parts/components/ActionCard";
 import Testimonial from "@/parts/components/Testimonial";
 
 export const metadata = {
-  title: "Sobre Nosotros | Desarrollo, IA y Ciberseguridad",
+  title: "Sobre Nosotros",
   description: "Conoce Nexian: desarrollo de software a medida, inteligencia artificial y ciberseguridad para impulsar la evolución digital de tu negocio.",
 };
 

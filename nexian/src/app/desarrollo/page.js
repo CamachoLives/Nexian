@@ -7,7 +7,7 @@ import PricingPlans from "@/parts/sections/PricingPlans";
 import { PlanesDesarrolloData } from "@/data/plans/PlanesDesarrolloData";
 
 export const metadata = {
-  title: "Servicios de Desarrollo Web | Seguridad y Optimización",
+  title: "Desarrollo y Mantenimiento Web",
   description: "Desarrollo web profesional, auditorías de seguridad, optimización de rendimiento y gestión de CMS para llevar tu proyecto al siguiente nivel.",
 };
 

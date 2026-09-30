@@ -5,7 +5,7 @@ import { ROUTES } from "@/config/routes";
 import { siteConfig } from "@/config/site";
 
 export const metadata = {
-  title: "Centro de Soporte | Ayuda Técnica",
+  title: "Centro de Soporte",
   description: "Accede al centro de soporte de Nexian para obtener ayuda con desarrollo web, seguridad, optimización de páginas, CMS y más.",
 };
 

@@ -8,7 +8,7 @@ import FaqSection from "@/parts/sections/FaqSection";
 import { FaqServiciosData } from "@/data/components/FaqServiciosData";
 
 export const metadata = {
-  title: "Software a la Medida | Desarrollo de Aplicaciones",
+  title: "Software a la Medida",
   description: "Desarrollo de software personalizado para automatizar procesos, gestionar datos y hacer crecer tu negocio con soluciones tecnológicas hechas exactamente para ti.",
 };
 

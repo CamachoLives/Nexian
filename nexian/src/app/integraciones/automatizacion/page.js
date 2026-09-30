@@ -7,7 +7,7 @@ import FaqSection from "@/parts/sections/FaqSection";
 import { FaqIntegracionesData } from "@/data/components/FaqIntegracionesData";
 
 export const metadata = {
-  title: "Automatizaciones | Flujos de Trabajo y Procesos Automáticos",
+  title: "Automatización de Procesos",
   description: "Automatiza tareas repetitivas, flujos de trabajo y procesos administrativos para ahorrar tiempo, reducir errores y escalar tu negocio.",
 };
 

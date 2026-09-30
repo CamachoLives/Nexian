@@ -8,7 +8,7 @@ import FaqSection from "@/parts/sections/FaqSection";
 import { FaqServiciosData } from "@/data/components/FaqServiciosData";
 
 export const metadata = {
-  title: "Optimización Web | Velocidad y Rendimiento",
+  title: "Optimización Web y Rendimiento",
   description: "Mejora la velocidad de carga, el rendimiento y el SEO técnico de tu sitio web. Análisis completo y optimización profesional para que tu página vuele.",
 };
 

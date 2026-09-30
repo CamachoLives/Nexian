@@ -8,7 +8,7 @@ import FaqSection from "@/parts/sections/FaqSection";
 import { FaqServiciosData } from "@/data/components/FaqServiciosData";
 
 export const metadata = {
-  title: "Creación de Sitios Web | Desarrollo Profesional",
+  title: "Creación de Sitios Web",
   description: "Diseño y desarrollo de sitios web profesionales, landing pages y tiendas online a medida. Resultados rápidos, modernos y optimizados para tu negocio.",
 };
 

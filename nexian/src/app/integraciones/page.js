@@ -7,7 +7,7 @@ import Testimonial from "@/parts/components/Testimonial";
 import ActionCard from "@/parts/components/ActionCard";
 
 export const metadata = {
-  title: "Integraciones | IA, Automatizaciones y Seguridad",
+  title: "Integraciones de IA y Automatización",
   description: "Integra inteligencia artificial, automatiza procesos y refuerza la seguridad de tu negocio con soluciones tecnológicas avanzadas y personalizadas.",
 };
 

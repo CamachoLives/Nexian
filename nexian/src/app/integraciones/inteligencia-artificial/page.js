@@ -7,7 +7,7 @@ import FaqSection from "@/parts/sections/FaqSection";
 import { FaqIntegracionesData } from "@/data/components/FaqIntegracionesData";
 
 export const metadata = {
-  title: "Inteligencia Artificial | Integración y Automatización con IA",
+  title: "Integración de Inteligencia Artificial",
   description: "Integra modelos de inteligencia artificial en tu negocio para automatizar tareas, analizar datos y mejorar la experiencia de tus clientes.",
 };
 
