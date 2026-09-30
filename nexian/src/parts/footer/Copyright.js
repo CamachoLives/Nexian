@@ -1,6 +1,13 @@
-const year = new Date().getFullYear();
+import { siteConfig } from "@/config/site";
+
 export default function Copyright() {
-  return(
-    <p className="footer-block footer-bottom-block">Copyright &#x00A9; { year } Nexian. Todos los derechos reservados.</p>
+  // Dentro del componente, no en el módulo: así el año se calcula en cada
+  // render y no queda congelado en el momento en que se compiló el bundle.
+  const year = new Date().getFullYear();
+
+  return (
+    <p className="footer-block footer-bottom-block">
+      Copyright &#x00A9; {year} {siteConfig.name}. Todos los derechos reservados.
+    </p>
   );
 }
