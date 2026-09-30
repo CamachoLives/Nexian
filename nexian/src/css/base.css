@@ -132,7 +132,11 @@ fieldset {
   display: none !important;
 }
 
-/* Reduce motion for accessibility */
+/* Reducción de movimiento: único bloque global del proyecto. Las animaciones
+   no se anulan con animation: none, que dejaría los elementos en un estado
+   sin definir, sino que se acortan para que terminen al instante. Las que
+   necesiten otro trato lo declaran junto a su propia regla (ver el marquee
+   en shortcodes.css). */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

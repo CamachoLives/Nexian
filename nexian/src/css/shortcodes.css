@@ -292,3 +292,17 @@
     transform: translateX(20%)
   }
 }
+/* Con reducción de movimiento el marquee no se desplaza. El reset global solo
+   acorta la animación, y eso la dejaría en su fotograma final (translateX
+   -90%), con los testimonios casi fuera de la vista: aquí se cancela y la
+   fila se puede recorrer a mano. */
+@media (prefers-reduced-motion: reduce) {
+  .marquee-rtl,
+  .marquee-ltr {
+    animation: none !important;
+    transform: none !important;
+  }
+  .section-marquee {
+    overflow-x: auto;
+  }
+}
