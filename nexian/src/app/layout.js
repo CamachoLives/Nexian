@@ -44,6 +44,8 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
   },
+  // El .ico lo añade app/favicon.ico; el SVG escala en pestañas de alta densidad.
+  icons: { icon: [{ url: "/icon.svg", type: "image/svg+xml" }] },
 };
 
 export const viewport = {
