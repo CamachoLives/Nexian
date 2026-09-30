@@ -28,7 +28,16 @@ export default function Accordion({ items }) {
             >
               {item.title}
             </button>
-            <div id={panelId} role="region" aria-labelledby={buttonId} className="accordion-content">
+            {/* El panel cerrado sigue en el DOM para poder animar max-height,
+                así que se marca inerte: no lo lee el lector de pantalla ni
+                recibe el foco al tabular. */}
+            <div
+              id={panelId}
+              role="region"
+              aria-labelledby={buttonId}
+              className="accordion-content"
+              inert={!isActive}
+            >
               {item.content}
             </div>
           </div>
