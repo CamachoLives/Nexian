@@ -27,7 +27,7 @@ export default function Testimonial() {
                 <div className="testimonial-image">
                   <Image
                     src={testimonial.image}
-                    alt={testimonial.name}
+                    alt=""
                     width={48}
                     height={48}
                   />

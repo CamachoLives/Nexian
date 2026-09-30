@@ -13,7 +13,7 @@ export default function ContactSupportCards() {
         {ContactSupportCardsData.map((item) => (
           <div className="card card-border" key={item.id}>
             <div className="card-icon">
-              <Image className="image-size-x3" src={item.icon} alt={item.title} width={48} height={48} />
+              <Image className="image-size-x3" src={item.icon} alt="" width={48} height={48} />
             </div>
             <h3 className="card-title">{item.title}</h3>
             <p>{item.content}</p>
