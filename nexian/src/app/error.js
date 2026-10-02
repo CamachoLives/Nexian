@@ -4,7 +4,6 @@ import Link from "next/link";
 import { ROUTES } from "@/config/routes";
 import { siteConfig } from "@/config/site";
 
-
 /**
  * Límite de error de las rutas: sustituye la pantalla en blanco por una
  * página con la cabecera y el pie del sitio, y con una vía de salida.
